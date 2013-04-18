@@ -9,7 +9,7 @@ class Bills
 
   # elements to be turned into divs (must be listed explicitly)
   BLOCKS = %w{
-    legis-body
+    legis-body title
     section subsection paragraph subparagraph subchapter 
     quoted-block
     toc toc-entry
@@ -32,9 +32,14 @@ class Bills
     body = doc.at "legis-body"
     body.traverse do |node|
 
-      # for now, just strip out any attributes
-      node.attributes.each do |key, value|
-        node.attributes[key].remove
+      # for some nodes, we'll preserve some attributes
+      preserved = {}
+
+      # <external-xref legal-doc="usc" parsable-cite="usc/12/5301"
+      # cite check
+      if (node.name == "external-xref") and (node.attributes["legal-doc"].value == "usc")
+        preserved["data-citation-type"] = "usc"
+        preserved["data-citation-id"] = node.attributes["parsable-cite"].value
       end
 
       # turn into a div or span with a class of its old name
@@ -44,7 +49,18 @@ class Bills
       else # inline
         node.name = "span"
       end
-      node["class"] = name
+      preserved["class"] = name
+
+
+      # strip out all attributes
+      node.attributes.each do |key, value|
+        node.attributes[key].remove
+      end
+
+      # restore just the ones we were going to preserve
+      preserved.each do |key, value|
+        node.set_attribute key, value
+      end
     end
 
     if outfile
