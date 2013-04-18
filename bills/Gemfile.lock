@@ -2,9 +2,13 @@ GEM
   remote: https://rubygems.org/
   specs:
     nokogiri (1.5.9)
+    paint (0.8.5)
+    wirb (1.0.1)
+      paint
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   nokogiri
+  wirb
