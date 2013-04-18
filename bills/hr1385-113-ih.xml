@@ -1,0 +1,1544 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="billres.xsl"?>
+<!DOCTYPE bill PUBLIC "-//US Congress//DTDs/bill v2.8 20020720//EN" "bill.dtd">
+<bill bill-stage="Introduced-in-House" bill-type="olc" dms-id="H023C6FB649D343F09334F59CDC881944" public-private="public">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dublinCore>
+<dc:title>113 HR 1385 IH: Safe Cosmetics and Personal Care Products Act of 2013</dc:title>
+<dc:publisher>U.S. House of Representatives</dc:publisher>
+<dc:date>2013-03-21</dc:date>
+<dc:format>text/xml</dc:format>
+<dc:language>EN</dc:language>
+<dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+</dublinCore>
+</metadata>
+<form>
+		<distribution-code display="yes">I</distribution-code>
+		<congress>113th CONGRESS</congress>
+		<session>1st Session</session>
+		<legis-num>H. R. 1385</legis-num>
+		<current-chamber>IN THE HOUSE OF REPRESENTATIVES</current-chamber>
+		<action>
+			<action-date date="20130321">March 21, 2013</action-date>
+			<action-desc><sponsor name-id="S001145">Ms. Schakowsky</sponsor> (for
+			 herself, <cosponsor name-id="M000133">Mr. Markey</cosponsor>,
+			 <cosponsor name-id="B000574">Mr. Blumenauer</cosponsor>,
+			 <cosponsor name-id="C001080">Ms. Chu</cosponsor>, <cosponsor name-id="C000714">Mr. Conyers</cosponsor>, <cosponsor name-id="E000288">Mr.
+			 Ellison</cosponsor>, <cosponsor name-id="G000551">Mr. Grijalva</cosponsor>,
+			 <cosponsor name-id="H000324">Mr. Hastings of Florida</cosponsor>,
+			 <cosponsor name-id="H001068">Mr. Huffman</cosponsor>,
+			 <cosponsor name-id="L000579">Mr. Lowenthal</cosponsor>,
+			 <cosponsor name-id="M001149">Mr. Michaud</cosponsor>,
+			 <cosponsor name-id="M000933">Mr. Moran</cosponsor>,
+			 <cosponsor name-id="N000147">Ms. Norton</cosponsor>,
+			 <cosponsor name-id="P000597">Ms. Pingree of Maine</cosponsor>,
+			 <cosponsor name-id="W000797">Ms. Wasserman Schultz</cosponsor>, and
+			 <cosponsor name-id="S001175">Ms. Speier</cosponsor>) introduced the following
+			 bill; which was referred to the <committee-name committee-id="HIF00">Committee
+			 on Energy and Commerce</committee-name>, and in addition to the Committee on
+			 <committee-name committee-id="HED00">Education and the
+			 Workforce</committee-name>, for a period to be subsequently determined by the
+			 Speaker, in each case for consideration of such provisions as fall within the
+			 jurisdiction of the committee concerned</action-desc>
+		</action>
+		<legis-type>A BILL</legis-type>
+		<official-title>To amend title VI of the Federal Food, Drug, and Cosmetic
+		  Act to ensure the safe use of cosmetics, and for other
+		  purposes.</official-title>
+	</form>
+	<legis-body id="H3A98EEB30E784699B510C807CEC3C1D2" style="OLC">
+		<section commented="no" id="H0CEC0C0903FE4A92B021F136412B76A5" section-type="section-one"><enum>1.</enum><header>Short title; table of
+			 contents</header>
+			<subsection id="H362A3988C7114B18A9741693227C3020"><enum>(a)</enum><header>Short
+			 title</header><text display-inline="yes-display-inline">This Act may be cited
+			 as the <quote><short-title>Safe Cosmetics and Personal
+			 Care Products Act of 2013</short-title></quote>.</text>
+			</subsection><subsection id="HEE409BBDE94E43F49C564945F3AFAB84"><enum>(b)</enum><header>Table of
+			 contents</header><text display-inline="yes-display-inline">The table of
+			 contents of this Act is as follows:</text>
+				<toc container-level="legis-body-container" lowest-bolded-level="division-lowest-bolded" lowest-level="section" quoted-block="yes-quoted-block" regeneration="yes-regeneration">
+					<toc-entry idref="H0CEC0C0903FE4A92B021F136412B76A5" level="section">Sec. 1. Short title; table of contents.</toc-entry>
+					<toc-entry idref="HD20BAD00B4BF4B56887527823EA120F8" level="section">Sec. 2. Cosmetic
+				regulation.</toc-entry><toc-quoted-entry style="OLC">
+						<toc-entry idref="H811993423A9A49429FF33A42F5BC970E" level="subchapter">Subchapter A—Adulterated and misbranded
+				  cosmetics</toc-entry>
+						<toc-entry idref="H00EFD8295AF6497BB488040AE8581F78" level="subchapter">Subchapter B—Regulation of cosmetics</toc-entry>
+						<toc-entry idref="HAD39A9A7A6B041A6A8E4DA19D2F34752" level="section">Sec. 611. Definitions.</toc-entry>
+						<toc-entry idref="H480D1A4BEC74433E84B854033E5F2A2E" level="section">Sec. 612. Registration of establishments and registration
+				  fees.</toc-entry>
+						<toc-entry idref="H2B0B65B74B964AC6AF6804C3FBFA37EB" level="section">Sec. 613. Ingredients labels on cosmetics.</toc-entry>
+						<toc-entry idref="H8C6F69E42CCC41AFB4DB7B41610C532E" level="section">Sec. 614. Safety standard and good manufacturing
+				  practices.</toc-entry>
+						<toc-entry idref="HE201FBAD4FE642DFAD2618667F3F344F" level="section">Sec. 615. Cosmetic and ingredient safety
+				  information.</toc-entry>
+						<toc-entry idref="H553A11A3AE184847BE49E19590D28006" level="section">Sec. 616. Lists of ingredients and required
+				  responses.</toc-entry>
+						<toc-entry idref="H83BCCF2B67224AD7ABDB82AD1055E44A" level="section">Sec. 617. Treatment of cosmetics based on ingredient
+				  lists.</toc-entry>
+						<toc-entry idref="HA37156E5EFEB4CB5B7A425ABDBA2FF75" level="section">Sec. 618. Treatment of contaminants.</toc-entry>
+						<toc-entry idref="H9A75AB84C124415DB4EB5EFB104E4189" level="section">Sec. 619. Cosmetic and ingredient statements.</toc-entry>
+						<toc-entry idref="H0E1C8540E41F4DDEA93CA49442278A35" level="section">Sec. 620. Notification, nondistribution, and recall of
+				  adulterated or misbranded cosmetics.</toc-entry>
+						<toc-entry idref="H20EB8B9B06AA44ADA5D0BDD2D9FB9056" level="section">Sec. 621. Petitions.</toc-entry>
+						<toc-entry idref="H15E8F1C82CD94590910D68E2E00A2DB9" level="section">Sec. 622. Mandatory reporting of serious adverse
+				  events.</toc-entry>
+						<toc-entry idref="H391DD2B4AB3E4EE98375D373D0A9F478" level="section">Sec. 623. Nonconfidential information.</toc-entry>
+						<toc-entry idref="H24A1ECF7CAEF4870B2C563B04734B6F8" level="section">Sec. 624. Animal testing alternatives.</toc-entry>
+						<toc-entry idref="H087F967533384431A1AB4A2AC52D3167" level="section">Sec. 625. Product Testing and Review Audit.</toc-entry>
+						<toc-entry idref="H91947C50C03D4B6992F3EF59EBFEF0B0" level="section">Sec. 626. Resources for small businesses.</toc-entry>
+						<toc-entry idref="H27DB13F3166745A6BF1A9D7EEFA4DAB3" level="section">Sec. 627. Interagency cooperation.</toc-entry>
+						<toc-entry idref="H60C402C7F8F9474FA42CA53AC4109E79" level="section">Sec. 628. Savings clause.</toc-entry>
+						<toc-entry idref="H495AE2E88AF44295B45DB60E1DDA66D6" level="section">Sec. 629. Authorization of
+				  appropriations.</toc-entry></toc-quoted-entry>
+					<toc-entry idref="HC4DFCD931BD44ED89FD1DFEE5B1CC4F0" level="section">Sec. 3. Worker issues.</toc-entry>
+				</toc>
+			</subsection></section><section id="HD20BAD00B4BF4B56887527823EA120F8"><enum>2.</enum><header>Cosmetic
+			 regulation</header>
+			<subsection id="HC9536A6DA6E146D891C2EF3C8CDBF530"><enum>(a)</enum><header>In
+			 general</header><text display-inline="yes-display-inline">Chapter VI of the
+			 Federal Food, Drug, and Cosmetic Act (<external-xref legal-doc="usc" parsable-cite="usc/21/361">21 U.S.C. 361 et seq.</external-xref>) is amended—</text>
+				<paragraph id="H70B111141DB64044801459C39F2D9720"><enum>(1)</enum><text display-inline="yes-display-inline">by inserting before section 601 the
+			 following:</text>
+					<quoted-block display-inline="no-display-inline" id="H3806BF1A10714120B295B20C7C25F791" style="OLC">
+						<subchapter id="H811993423A9A49429FF33A42F5BC970E"><enum>A</enum><header>Adulterated and
+				misbranded cosmetics</header>
+						</subchapter><after-quoted-block>;
+				</after-quoted-block></quoted-block>
+					<continuation-text continuation-text-level="paragraph">and</continuation-text></paragraph><paragraph id="H529574C0DE804588ABE54C2DA74EDA2C"><enum>(2)</enum><text>by adding at the
+			 end the following:</text>
+					<quoted-block display-inline="no-display-inline" id="H164276F5A0514B84B51CC7376F12FE70" style="OLC">
+						<subchapter id="H00EFD8295AF6497BB488040AE8581F78"><enum>B</enum><header>Regulation of
+				cosmetics</header>
+							<section id="HAD39A9A7A6B041A6A8E4DA19D2F34752"><enum>611.</enum><header>Definitions</header><text display-inline="no-display-inline">In this subchapter:</text>
+								<paragraph id="H6FC132DA45F3442B845223D89D23D69C"><enum>(1)</enum><header>Brand
+				owner</header><text>The term <term>brand owner</term> means the entity
+				responsible for bringing a cosmetic to market.</text>
+								</paragraph><paragraph id="HAE3A42C0CFD945B1981F1AFC0D03468F"><enum>(2)</enum><header>Contaminant</header><text>The
+				term <term>contaminant</term> means unintended substances, such as those that
+				can originate from sources outside the chemical pathway, chemical processes,
+				storage of primary substances, instability of the packaging or harmful
+				byproducts of the manufacturing process.</text>
+								</paragraph><paragraph commented="no" id="HEDA41E23EB9E414FBC0B9EA98C4257A7"><enum>(3)</enum><header>Domestic
+				establishment</header><text display-inline="yes-display-inline">The term
+				<term>domestic establishment</term> means an establishment located in any State
+				that brings a cosmetic to market.</text>
+								</paragraph><paragraph commented="no" id="H700AE669C6CE45598279618B9DB2C22E"><enum>(4)</enum><header>Foreign
+				establishment</header><text display-inline="yes-display-inline">The term
+				<term>foreign establishment</term> means an establishment that brings a
+				cosmetic to market and exports those cosmetics to the United States.</text>
+								</paragraph><paragraph id="H98E23C512AB54BDBA7E45396E45CCE31"><enum>(5)</enum><header>Ingredient</header><text>The
+				term <term>ingredient</term> means a chemical in a cosmetic, including—</text>
+									<subparagraph id="H1DC314B348344CFA8B2BE6C6A39A731E"><enum>(A)</enum><text>chemicals that
+				provide a technical or functional effect;</text>
+									</subparagraph><subparagraph id="H455CCBDAD61E4EE9965E9133AC8DF792"><enum>(B)</enum><text>chemicals that
+				have no technical or functional effect in the cosmetic but are present by
+				reason of having been incorporated into the cosmetic as an ingredient of
+				another cosmetic ingredient;</text>
+									</subparagraph><subparagraph id="H9590082AF8E642E6AC1C344C18A47345"><enum>(C)</enum><text>processing aids
+				that are present by reason of having been added to a cosmetic during the
+				processing of such cosmetic;</text>
+									</subparagraph><subparagraph id="HBDDA9BA488B04C0091746913D0F42007"><enum>(D)</enum><text>substances that
+				are present by reason of having been added to a cosmetic during processing for
+				their technical or functional effect;</text>
+									</subparagraph><subparagraph id="HD16E64D50DA34EB185B9ADDCF6722FAE"><enum>(E)</enum><text>the components of
+				a fragrance, flavor, or preservative; and</text>
+									</subparagraph><subparagraph id="HBB6D03AA8EF4421C9E714B7508DE75C4"><enum>(F)</enum><text>any individual
+				component that the Secretary deems an ingredient for purposes of this
+				chapter.</text>
+									</subparagraph></paragraph><paragraph id="HB5F1DF87196A4F338A4584DA85393EB0"><enum>(6)</enum><header>Manufacturer</header><text display-inline="yes-display-inline">The term <term>manufacturer</term> means
+				the entity that produces ingredients or combines one or more ingredients to
+				produce a cosmetic product.</text>
+								</paragraph><paragraph commented="no" id="H618B514865D544BC9511967D9AAF84CE"><enum>(7)</enum><header>Microbusiness</header><text>The
+				term <term>microbusiness</term> means a business—</text>
+									<subparagraph commented="no" id="H1127109E774E4E8BA108EE9766136269"><enum>(A)</enum><text display-inline="yes-display-inline">that is a brand owner as defined in this
+				subchapter; and</text>
+									</subparagraph><subparagraph commented="no" id="H49B2F47D6C644A9181487EF6315F8645"><enum>(B)</enum><text display-inline="yes-display-inline">that has annual sales receipts for cosmetic
+				products that do not exceed $2,000,000.</text>
+									</subparagraph></paragraph><paragraph id="H0EC4940863ED423BBB0A16FF1266E831"><enum>(8)</enum><header>Professional
+				use</header><text>The term <term>professional use</term> means the use of any
+				cosmetic—</text>
+									<subparagraph commented="no" id="HB352B09E39454253AA475C7FC90BC9C6"><enum>(A)</enum><text>by an employee
+				(within the scope of the employment of such employee) of; or</text>
+									</subparagraph><subparagraph commented="no" id="H3D1C4B8C0CA2482493A234FF8905109C"><enum>(B)</enum><text>purchased by a
+				consumer in,</text>
+									</subparagraph><continuation-text continuation-text-level="paragraph">a hair
+				salon, nail salon, beauty salon, spa, or other establishment that provides
+				cosmetic treatment services for humans.</continuation-text></paragraph><paragraph id="HC93D7FCBEB7F4C95801043B2EB6C94A2"><enum>(9)</enum><header>Reasonable
+				certainty of no harm</header><text display-inline="yes-display-inline">With
+				respect to an ingredient or cosmetic, the term <term>reasonable certainty of no
+				harm</term> means that no harm will be caused to members of the general
+				population or any vulnerable population by aggregate exposure to the cosmetic
+				or ingredient, taking into account possible harmful effects from—</text>
+									<subparagraph id="HD6FFECC58E3A4ACCB20B0850E40111C6"><enum>(A)</enum><text>low-dose exposures
+				to the cosmetic or ingredient;</text>
+									</subparagraph><subparagraph commented="no" id="H3F2A964A28EA4DC9B13B7797C1545BE4"><enum>(B)</enum><text display-inline="yes-display-inline">additive effects resulting from repeated
+				exposure to the cosmetic or ingredient over time; or</text>
+									</subparagraph><subparagraph id="H0698BA4B3CB14189A9968053EF7C80FF"><enum>(C)</enum><text>cumulative
+				exposure resulting from all sources, including both the cosmetic or ingredient
+				and environmental sources.</text>
+									</subparagraph></paragraph><paragraph commented="no" id="HE94705760C544B2F9FCF8E36FE58AEC4"><enum>(10)</enum><header>Reproductive or
+				developmental toxicity</header><text>With respect to an ingredient or cosmetic,
+				the term <term>reproductive or developmental toxicity</term> means that the
+				ingredient or cosmetic can contribute to biologically adverse effects on the
+				development of humans or animals, including effects on the female or male
+				reproductive system, the endocrine system, fertility, pregnancy, pregnancy
+				outcomes, or modifications in other functions of the body that are dependent on
+				the integrity of the reproductive system as well normal fetal
+				development.</text>
+								</paragraph><paragraph id="H205DC9D3EBE243BAB95C06A7ACF08F0E"><enum>(11)</enum><header>Serious adverse
+				event</header><text>The term <term>serious adverse event</term> means—</text>
+									<subparagraph id="HBABC334E844E46E3905BA31F86E52DF7"><enum>(A)</enum><text>an acute or
+				chronic response that results in death, a life-threatening experience, short-
+				or long-term hospitalization, a persistent or significant disability or
+				incapacity, or a congenital anomaly or birth defect; or</text>
+									</subparagraph><subparagraph id="HEDFBE77944FB40C2B21A2B2D36233B09"><enum>(B)</enum><text>requires, based on
+				a reasonable medical judgment, a medical or surgical intervention to prevent an
+				outcome described above.</text>
+									</subparagraph></paragraph><paragraph id="H05E7A5102FFF4191A74AC6C6E8C52527"><enum>(12)</enum><header>Supplier</header><text display-inline="yes-display-inline">The term <term>supplier</term> means the
+				entity that supplies ingredients, raw materials, or specific components of a
+				cosmetic product, including packaging.</text>
+								</paragraph><paragraph commented="no" display-inline="no-display-inline" id="HAEB6DE47ADC24FA18B87DBBF5DC8605B"><enum>(13)</enum><header>Vulnerable
+				populations</header><text display-inline="yes-display-inline">The term
+				<term>vulnerable populations</term> includes pregnant women, infants, children,
+				the elderly, and highly exposed populations, including workers employed by hair
+				salons, nail salons, beauty salons, spas, other establishments that provide
+				cosmetic treatment services for humans, and cosmetic manufacturing
+				plants.</text>
+								</paragraph></section><section commented="no" id="H480D1A4BEC74433E84B854033E5F2A2E"><enum>612.</enum><header>Registration of
+				establishments and registration fees</header>
+								<subsection commented="no" id="H91278C5B01A24191B77D1A2F3CD67046"><enum>(a)</enum><header>Registration</header>
+									<paragraph id="H8A522FEEAEAA4261B6B766E1A7C705EC"><enum>(1)</enum><header>In
+				general</header><text>Beginning 1 year after the date of the enactment of this
+				subchapter, and annually thereafter, any brand owner (except for
+				microbusinesses) engaged in bringing a cosmetic to market for use in the United
+				States shall register with the Secretary and pay to the Secretary the
+				applicable fee, as established under the fee schedule in
+				<internal-xref idref="H6D8B86CF6DA9409F9EF999A9A30FE6CB" legis-path="612.(e)">subsection (e)</internal-xref>.</text>
+									</paragraph><paragraph id="HEE8DEC5005E24EBF9D58D989E22782B8"><enum>(2)</enum><header>Rules for
+				domestic and foreign establishments</header><text>To be registered under
+				<internal-xref idref="H8A522FEEAEAA4261B6B766E1A7C705EC" legis-path="612.(a)(1)">paragraph (1)</internal-xref>—</text>
+										<subparagraph commented="no" id="H26D361239FD440DC9E752763653A0B30"><enum>(A)</enum><text>as a domestic
+				establishment, the owner, operator, or agent in charge of the domestic
+				establishment shall submit a registration to the Secretary; or</text>
+										</subparagraph><subparagraph commented="no" id="HA58A6B22883A467EB8D9B8FF7F849307"><enum>(B)</enum><text>as a foreign
+				establishment, the owner, operator, or agent in charge of the foreign
+				establishment shall—</text>
+											<clause id="HDEEA872B02E04D8E8F8E8B6FC29C888E"><enum>(i)</enum><text>submit a
+				registration to the Secretary; and</text>
+											</clause><clause id="HD8475DBF9DDB4142A7A3FB9C22DDBF20"><enum>(ii)</enum><text>include with the
+				registration the name of the United States agent for the foreign
+				establishment.</text>
+											</clause></subparagraph></paragraph><paragraph commented="no" display-inline="no-display-inline" id="HB863EC33329C4295AC2F29F2F297F783"><enum>(3)</enum><header>New
+				establishments</header><text display-inline="yes-display-inline">Any brand
+				owner that initially brings a cosmetic to market after the date on which the
+				requirements of
+				<internal-xref idref="H8A522FEEAEAA4261B6B766E1A7C705EC" legis-path="612.(a)(1)">paragraph (1)</internal-xref> apply shall, not later
+				than 60 days after the date on which the establishment brings a cosmetic to
+				market, register with the Secretary and pay the applicable fee, as required
+				under
+				<internal-xref idref="H8A522FEEAEAA4261B6B766E1A7C705EC" legis-path="612.(a)(1)">paragraph (1)</internal-xref>.</text>
+									</paragraph></subsection><subsection commented="no" id="H254F71AF879447B7983D3D9D23E5090E"><enum>(b)</enum><header>Submission of
+				registration</header>
+									<paragraph commented="no" id="H7DE75CAE24C945448D07E7BE5854995C"><enum>(1)</enum><header>In
+				general</header><text>In order to register under
+				<internal-xref idref="H91278C5B01A24191B77D1A2F3CD67046" legis-path="612.(a)">subsection (a)</internal-xref>, an establishment (referred
+				to in this section as the <quote>registrant</quote>) shall submit to the
+				Secretary, with respect to any cosmetics that the establishment brings to
+				market, all of the following:</text>
+										<subparagraph commented="no" id="H901E68ACF38349CCB8A4CE9168AE68AE"><enum>(A)</enum><text display-inline="yes-display-inline">Any information necessary to notify the
+				Secretary of the name, address, and legal status of each establishment at
+				which, and all trade names under which, the registrant brings cosmetics to
+				market.</text>
+										</subparagraph><subparagraph commented="no" id="HA249786CC37D4F3A8F3BA92E01702016"><enum>(B)</enum><text display-inline="yes-display-inline">A description of the establishment’s
+				activities with respect to cosmetics, including a list of all cosmetic products
+				brought to market by the establishment and the functions of such
+				cosmetics.</text>
+										</subparagraph><subparagraph id="HE367CD23690143BAAC2EA90852A86CA4"><enum>(C)</enum><text>The gross receipts
+				or sales for the establishment from cosmetics.</text>
+										</subparagraph></paragraph><paragraph id="H8DF97B32A1ED46E98D749DA49CD5A0B6"><enum>(2)</enum><header>Notification of
+				changes</header><text>When submitting the annual registration, the registrant
+				shall notify the Secretary of changes to the information described in
+				<internal-xref idref="H7DE75CAE24C945448D07E7BE5854995C" legis-path="612.(b)(1)">paragraph (1)</internal-xref>.</text>
+									</paragraph></subsection><subsection commented="no" id="H48DB2DC323274BDC8C70927B55CFEBF4"><enum>(c)</enum><header>Procedure</header><text>Upon
+				receipt of a completed registration submitted under
+				<internal-xref idref="H91278C5B01A24191B77D1A2F3CD67046" legis-path="612.(a)">subsection (a)</internal-xref>, the Secretary shall notify
+				the registrant of the receipt of such registration and assign a registration
+				number to each registered establishment.</text>
+								</subsection><subsection commented="no" id="H8FEC81DFE3FC4656A88FD985BC764B67"><enum>(d)</enum><header>List of
+				registered establishments</header>
+									<paragraph id="H5D4AD6D7135343ABBEA27677E5500A15"><enum>(1)</enum><header>Maintenance of
+				list</header><text>The Secretary shall—</text>
+										<subparagraph id="HA96E743E691542DD8D8433E844ED9AA0"><enum>(A)</enum><text>compile, maintain,
+				and update as appropriate, a list of establishments that are registered under
+				this section;</text>
+										</subparagraph><subparagraph id="H1A0E3B60021C44AFAEFAFAF25E2D74CA"><enum>(B)</enum><text>make such list
+				publicly available;</text>
+										</subparagraph><subparagraph id="H40F9B5C67AF541138C2E5DB22EC71367"><enum>(C)</enum><text>remove from such
+				list the name of any establishment that fails to register in accordance with
+				this section; and</text>
+										</subparagraph><subparagraph id="H0E73683CCE01409EBD4CE421E21D640C"><enum>(D)</enum><text>indicate on such
+				list any establishment which has had its registration suspended or cancelled by
+				the Secretary under this section.</text>
+										</subparagraph></paragraph><paragraph id="HE09F648544DA44D1917F0E81DC947AE4"><enum>(2)</enum><header>Application of
+				FOIA</header>
+										<subparagraph id="H442A515EF53748428050E5A190AB343D"><enum>(A)</enum><header>Registration
+				documents</header><text>Any registration documents submitted pursuant to this
+				section shall not be subject to disclosure under <external-xref legal-doc="usc" parsable-cite="usc/5/552">section 552</external-xref> of title 5, United
+				States Code.</text>
+										</subparagraph><subparagraph id="HB44075D9D10E4FFF9BD330076E41B2E1"><enum>(B)</enum><header>Other
+				information</header><text display-inline="yes-display-inline">Information
+				derived from—</text>
+											<clause id="HDC813B31B7B34DB18BEE1C1F19DAFB7A"><enum>(i)</enum><text>the list under
+				<internal-xref idref="H5D4AD6D7135343ABBEA27677E5500A15" legis-path="612.(d)(1)">paragraph (1)</internal-xref>; or</text>
+											</clause><clause id="HF16D81A3D8B24A169CCB4D88599D6CA7"><enum>(ii)</enum><text>registration
+				documents submitted pursuant to this section,</text>
+											</clause><continuation-text continuation-text-level="subparagraph">shall
+				not be subject to disclosure under <external-xref legal-doc="usc" parsable-cite="usc/5/552">section 552</external-xref> of title 5, United States Code,
+				except to the extent that such information discloses the identity or location
+				of a specific registrant.</continuation-text></subparagraph></paragraph></subsection><subsection commented="no" id="H6D8B86CF6DA9409F9EF999A9A30FE6CB"><enum>(e)</enum><header>Fee
+				schedule</header><text>A schedule of fees shall be developed by the Secretary
+				to provide for oversight and enforcement of this subchapter. The fee structure
+				shall—</text>
+									<paragraph id="H00C2260191674EF5BEC157A0FE455DF2"><enum>(1)</enum><text>be prorated based
+				on the establishment’s gross receipts or sales; and</text>
+									</paragraph><paragraph id="H6EBB1FEDB6A740548153A2CF79FB9622"><enum>(2)</enum><text>only be assessed
+				on companies with annual gross receipts or sales of cosmetics that exceed
+				$10,000,000.</text>
+									</paragraph></subsection><subsection id="HA08EF609A13C4599916DF709C57B33B7"><enum>(f)</enum><header>Suspension and
+				cancellation of registration</header>
+									<paragraph id="H47C98C603A9E4D39880CDCD420963AEF"><enum>(1)</enum><header>Criteria for
+				suspension</header><text>Registration under this section is subject to
+				suspension if the Secretary finds—</text>
+										<subparagraph id="HA92442D2EAF240299ECC9105A0370091"><enum>(A)</enum><text>the information
+				submitted by the establishment for registration under
+				<internal-xref idref="H91278C5B01A24191B77D1A2F3CD67046" legis-path="612.(a)">subsection (a)</internal-xref> is incomplete, inaccurate,
+				or out of date;</text>
+										</subparagraph><subparagraph id="H11FAA50107DD4A2599C137B5052C6402"><enum>(B)</enum><text>the establishment
+				fails to notify the Secretary of changes required under
+				<internal-xref idref="H8DF97B32A1ED46E98D749DA49CD5A0B6" legis-path="612.(b)(2)">subsection (b)(2)</internal-xref>;</text>
+										</subparagraph><subparagraph id="HC78D093045214C20B618411D79E0A2BB"><enum>(C)</enum><text>the establishment
+				fails to pay registration fees, as required under
+				<internal-xref idref="H91278C5B01A24191B77D1A2F3CD67046" legis-path="612.(a)">subsection (a)</internal-xref>, in a timely manner;
+				or</text>
+										</subparagraph><subparagraph id="H1ACB8D19364647169D96BD8EC949D334"><enum>(D)</enum><text>the establishment
+				violates any portion of this chapter.</text>
+										</subparagraph></paragraph><paragraph id="HC79080783D444AFB850A37134AD7E52F"><enum>(2)</enum><header>Suspension of
+				registration</header><text display-inline="yes-display-inline">If the Secretary
+				determines that an establishment is subject to suspension under
+				<internal-xref idref="HA08EF609A13C4599916DF709C57B33B7" legis-path="612.(f)">this subsection </internal-xref>and that it is appropriate
+				to suspend the registration of such establishment, the Secretary shall—</text>
+										<subparagraph id="HC69F8609406747B5BA50D930EA16718B"><enum>(A)</enum><text>suspend the
+				registration of such establishment; and</text>
+										</subparagraph><subparagraph id="HA101127E2BA04F1D894C8751E309EE7B"><enum>(B)</enum><text>provide a notice
+				of suspension to such establishment.</text>
+										</subparagraph></paragraph><paragraph id="HF2B0E711245D44C8876186DC356A3273"><enum>(3)</enum><header>Cancellation</header><text>If
+				the establishment fails to correct the issue that resulted in the suspension
+				under
+				<internal-xref idref="HC79080783D444AFB850A37134AD7E52F" legis-path="612.(f)(2)">paragraph (2)</internal-xref> before the last day of
+				the 30-day period beginning on the date that the establishment receives notice
+				under such paragraph, the Secretary may cancel the registration of such
+				establishment.</text>
+									</paragraph></subsection><subsection id="H71FA0319DA1E4D1990BCB34871DBDC22"><enum>(g)</enum><header>Recordkeeping</header><text>All
+				establishments that are required to register under this section shall maintain
+				records that include a current list of suppliers and manufacturers, if the
+				registrant does not manufacture or package its own product. Those records shall
+				be accessible by the Secretary upon request for review or audit.</text>
+								</subsection></section><section commented="no" id="H2B0B65B74B964AC6AF6804C3FBFA37EB"><enum>613.</enum><header>Ingredients
+				labels on cosmetics</header>
+								<subsection commented="no" id="HBBBB915DDF82434B876BF9685CE358B1"><enum>(a)</enum><header>In
+				general</header><text>Subject to subsections (b) and (c), the Secretary shall
+				require that the label on each package of cosmetics (including cosmetics
+				distributed for retail sale and professional use) bears a declaration of the
+				name of each ingredient in such cosmetic in descending order of
+				predominance.</text>
+								</subsection><subsection commented="no" id="H3617607613F049619F8199D2A5405BF0"><enum>(b)</enum><header>Adjustments for
+				label size</header>
+									<paragraph id="H964B2239D96D4931ACE9E84694C59795"><enum>(1)</enum><header>Rules for small
+				products</header><text>Not later than 6 months after the date of the enactment
+				of this subchapter, the Secretary shall issue regulations that apply to any
+				cosmetic for which the product packaging is not of sufficient size to bear or
+				contain a label that meets the requirements of
+				<internal-xref idref="HBBBB915DDF82434B876BF9685CE358B1" legis-path="613.(a)">subsection (a)</internal-xref>.</text>
+									</paragraph><paragraph id="HCEC3E283D4774AD98CBB325F586B0A66"><enum>(2)</enum><header>Requirements for
+				public disclosure</header><text>Such regulations shall establish requirements
+				for listing ingredients on the label of such cosmetics and additional
+				requirements for public disclosure of the ingredients in such cosmetics.</text>
+									</paragraph></subsection><subsection id="H1E6B12E4ADA54B9389CAAEF124D7073C"><enum>(c)</enum><header>Special rule for
+				contaminants</header><text display-inline="yes-display-inline">The Secretary
+				shall require, in the case of a contaminant, that a contaminant be declared on
+				the label of a cosmetic, in the same manner as an ingredient under subsection
+				(a), if the contaminant is present at the lower of the following levels:</text>
+									<paragraph id="HFFB49CD638014554AECFE7F5A98540F1"><enum>(1)</enum><text>A level that is
+				greater than one part-per-billion by weight of product formation.</text>
+									</paragraph><paragraph id="H4DB9321F19564FD9BFC0C2FA58F414EC"><enum>(2)</enum><text>A level that is
+				greater than one percent of the restriction on the concentration for such
+				contaminant for such use, as determined by the Secretary under section
+				616(a)(2).</text>
+									</paragraph></subsection><subsection commented="no" id="H456A745EB44E40E082EEDDE2D5D239E8"><enum>(d)</enum><header>Labeling of
+				nanomaterials in cosmetics</header><text>The Secretary may require that—</text>
+									<paragraph commented="no" id="H1CAAAE9060804DEFAA496DB4A0F820FD"><enum>(1)</enum><text>minerals and other
+				particulate ingredients be labeled as <quote>nano-scale</quote> on a cosmetic
+				ingredient label or list if not less than 1 percent of the ingredient particles
+				in the cosmetic are 100 nanometers or smaller in not less than 1 dimension;
+				and</text>
+									</paragraph><paragraph commented="no" id="HC75236AE280C4458BD7395DF2F2CB6F1"><enum>(2)</enum><text>other ingredients
+				in a cosmetic be designated with scale-specific information on a cosmetic
+				ingredient label or list if such ingredients possess scale-specific hazard
+				properties.</text>
+									</paragraph></subsection><subsection commented="no" id="H4A040B8A65944F1288413784D510C32D"><enum>(e)</enum><header>Labeling of
+				ingredients in cosmetics sold through Internet commerce</header><text>The
+				Secretary shall require—</text>
+									<paragraph commented="no" id="H52C55F118ECF42BEA3BB45C7F20157DB"><enum>(1)</enum><text>in the case of a
+				cosmetic sold on the Web site of an Internet vendor, that the brand owner of
+				such cosmetic provide to such Internet vendor a list of the ingredients of the
+				cosmetic; and</text>
+									</paragraph><paragraph commented="no" id="H31BD0A43F7C248E592F9F1E829345024"><enum>(2)</enum><text>that each Internet
+				vendor display the list of ingredients of a cosmetic sold by such vendor on the
+				Web page that is the primary Web page providing information relating to the
+				sale of such cosmetic on the Web site of the vendor.</text>
+									</paragraph></subsection><subsection commented="no" id="HFCAE591AE915477BA40A4B9C198ADF6B"><enum>(f)</enum><header>Trade
+				secrets</header><text>Notwithstanding any other provision of law, an ingredient
+				required to be listed on a label under this section shall not be treated as a
+				trade secret.</text>
+								</subsection><subsection commented="no" id="H97CE8063878F40749A55BA3B3741975B"><enum>(g)</enum><header>Application</header><text display-inline="yes-display-inline">Beginning 18 months after the date of the
+				enactment of this subchapter, the requirements of this section shall apply
+				to—</text>
+									<paragraph commented="no" id="H796FE27ADA794635A41E8EA91AA4CBAE"><enum>(1)</enum><text>all cosmetics that
+				are available for retail sale; and</text>
+									</paragraph><paragraph commented="no" id="H5DE6B98505CD4E4AB9A2E6B326665F6E"><enum>(2)</enum><text>brand owners and
+				Internet vendors of such cosmetics.</text>
+									</paragraph></subsection></section><section id="H8C6F69E42CCC41AFB4DB7B41610C532E"><enum>614.</enum><header>Safety standard
+				and good manufacturing practices</header>
+								<subsection id="H71BD2BD40B3E494F8C1FFD6B5D97BB47"><enum>(a)</enum><header>Safety
+				standard</header>
+									<paragraph id="HF8E1E53B52874A00A7CA6F4A081C404C"><enum>(1)</enum><header>In
+				general</header><text display-inline="yes-display-inline">Taking into account
+				the expected use of a cosmetic, the Secretary shall establish a safety standard
+				that, with respect to a cosmetic or an ingredient in a cosmetic provides a
+				reasonable certainty of no harm (as such term is defined in section 611(7))
+				from exposure to the cosmetic or ingredient and protects the public from any
+				known or anticipated adverse health effects associated with the cosmetic or
+				ingredient.</text>
+									</paragraph><paragraph id="H12721107AD8D4C5FA36A8B270EAEBFC0"><enum>(2)</enum><header>Standards for
+				establishing safety standard</header><text>In establishing the safety standard
+				under
+				<internal-xref idref="HF8E1E53B52874A00A7CA6F4A081C404C" legis-path="614.(a)(1)">paragraph (1)</internal-xref>, the Secretary shall
+				ensure that—</text>
+										<subparagraph commented="no" id="HB4BA4B478CBB43DCBA30C91E5D34DF7A"><enum>(A)</enum><text>the likely level
+				of exposure to all sources of the ingredient or cosmetic (including
+				environmental sources) that will result under the safety standard presents not
+				more than a 1 in a million risk for any adverse health effect in any vulnerable
+				population at the lower 95th percentile confidence interval; or</text>
+										</subparagraph><subparagraph commented="no" id="H3EBF81B993E24106BB5C780B40723028"><enum>(B)</enum><text display-inline="yes-display-inline">the safety standard results in exposure to
+				the amount or concentration of an ingredient or cosmetic that is shown to
+				produce no adverse health effects, incorporating an margin of safety of at
+				least 1,000 and considering the impact of cumulative exposure from all sources
+				(including environmental sources).</text>
+										</subparagraph></paragraph><paragraph commented="no" display-inline="no-display-inline" id="H7BE3E4D098C64F6F8D9456CA94B71FA7"><enum>(3)</enum><header>Use of other
+				Federal standards</header><text display-inline="yes-display-inline">If any
+				Federal agency has promulgated a standard for an ingredient that satisfies the
+				requirements under
+				<internal-xref idref="HF8E1E53B52874A00A7CA6F4A081C404C" legis-path="614.(a)(1)">paragraph (1)</internal-xref>, the Secretary may treat
+				such standard as the safety standard under
+				<internal-xref idref="HF8E1E53B52874A00A7CA6F4A081C404C" legis-path="614.(a)(1)">paragraph (1)</internal-xref> for purposes of such
+				ingredient.</text>
+									</paragraph><paragraph display-inline="no-display-inline" id="H1FB42E8534EC4B24AF14DA79430FCB30"><enum>(4)</enum><header>Application of
+				safety standard</header><text>The Secretary may only determine that an
+				ingredient or a cosmetic meets the safety standard under
+				<internal-xref idref="HF8E1E53B52874A00A7CA6F4A081C404C" legis-path="614.(a)(1)">paragraph (1)</internal-xref> if there is a reasonable
+				certainty of no harm from exposure to the ingredient or cosmetic.</text>
+									</paragraph></subsection><subsection id="HEF4C3BBC3DF940439C05D04E495BAE77"><enum>(b)</enum><header>Good
+				manufacturing practices</header>
+									<paragraph id="H4BBF4E7E20CA4A5B92EDCA20405D13D7"><enum>(1)</enum><header>In
+				general</header><text>The Secretary shall issue guidance prescribing good
+				manufacturing practices for cosmetics and ingredients, including quality
+				control procedures that the Secretary determines are necessary, and shall
+				update such regulations as necessary.</text>
+									</paragraph><paragraph id="H8C1D3AACE67E416EB67C9970833CF1F2"><enum>(2)</enum><header>Consideration of
+				small business</header><text>In developing the guidance under
+				<internal-xref idref="H4BBF4E7E20CA4A5B92EDCA20405D13D7" legis-path="614.(b)(1)">paragraph (1)</internal-xref>, the Secretary shall
+				consider how such practices will impact small businesses.</text>
+									</paragraph></subsection></section><section id="HE201FBAD4FE642DFAD2618667F3F344F" section-type="subsequent-section"><enum>615.</enum><header>Cosmetic and
+				ingredient safety information</header>
+								<subsection id="HEC0E051595FD4832AAF4A5D156C404FF"><enum>(a)</enum><header>Required
+				submission of all safety information</header>
+									<paragraph id="H5B84A31D26134926A767AC88065D14F0"><enum>(1)</enum><header>In
+				general</header><text display-inline="yes-display-inline">Brand owners of
+				cosmetics shall submit to the Secretary (in an electronic format that the
+				Secretary shall determine) all data and information that the brand owner can
+				access regarding the safety of the—</text>
+										<subparagraph id="H01CFB883AB23492B9A2BA4FCBC568234"><enum>(A)</enum><text>ingredients listed
+				on the cosmetic label under
+				<internal-xref idref="H2B0B65B74B964AC6AF6804C3FBFA37EB" legis-path="613.">section 613</internal-xref> for a cosmetic; and</text>
+										</subparagraph><subparagraph id="HE7B5CCCF41B14C7BBED98314592D0972"><enum>(B)</enum><text>cosmetic
+				itself.</text>
+										</subparagraph></paragraph><paragraph id="HF0FE4B00D122492ABAE6D0059E12EE41"><enum>(2)</enum><header>Required
+				information</header><text>The required data and information under
+				<internal-xref idref="H5B84A31D26134926A767AC88065D14F0" legis-path="615.(a)(1)">paragraph (1)</internal-xref> shall include, for each
+				ingredient in a cosmetic and for the cosmetic, the following:</text>
+										<subparagraph id="HF76845BAEA3F49B1A154D528BFDC0C5C"><enum>(A)</enum><text>Functions and
+				uses.</text>
+										</subparagraph><subparagraph id="HCDFAA37790C4480FB4B7F2900F8248EE"><enum>(B)</enum><text>Data and
+				information on the physical, chemical, and toxicity of each such ingredient or
+				cosmetic.</text>
+										</subparagraph><subparagraph id="H12097A004861447D8BB001992E6C8C96"><enum>(C)</enum><text>Exposure and fate
+				information.</text>
+										</subparagraph><subparagraph id="HEFCB6EB2A46C4CB0B55050B623F7E27E"><enum>(D)</enum><text>Results of all
+				safety tests that the brand owner can access or has conducted.</text>
+										</subparagraph><subparagraph id="HF2688DE7C546440DB5C61504E3DCC149"><enum>(E)</enum><text>Any other
+				information used to substantiate the safety of such ingredient and
+				cosmetic.</text>
+										</subparagraph></paragraph><paragraph id="HAF92463C231D4064A368FC8A4E42480E"><enum>(3)</enum><header>Deadlines</header>
+										<subparagraph id="H97AFFBDD4A1A4DBBA9F96A976AABE5A9"><enum>(A)</enum><header>Initial
+				submission</header><text>A brand owner shall submit the data and information
+				required under
+				<internal-xref idref="H5B84A31D26134926A767AC88065D14F0" legis-path="615.(a)(1)">paragraph (1)</internal-xref>—</text>
+											<clause id="HC1D470D3AE164C3199FDA703D36EA48C"><enum>(i)</enum><text>in
+				the case of an ingredient or cosmetic which is marketed for sale in interstate
+				commerce on or before the date of the enactment of this subchapter, not later
+				than 1 year after such date; and</text>
+											</clause><clause id="HE04E3B13AEB947AD88F194CE2249FC20"><enum>(ii)</enum><text>in the case of an
+				ingredient or cosmetic which is not marketed for sale on or before such
+				date—</text>
+												<subclause id="H8F867F06D1C544CE890374C956807882"><enum>(I)</enum><text>not later than the
+				end of the 14-month period beginning on the date of the enactment of this
+				subchapter; or</text>
+												</subclause><subclause id="HFC37B0600E8B42DEB3DA08A3D7CDE006"><enum>(II)</enum><text>if the ingredient
+				or cosmetic is first marketed for sale in interstate commerce after the end of
+				the period described in
+				<internal-xref idref="H8F867F06D1C544CE890374C956807882" legis-path="615.(a)(3)(A)(ii)(I)">subclause (I)</internal-xref>, not later than
+				60 days after the date on which such ingredient or cosmetic is first marketed
+				for sale.</text>
+												</subclause></clause></subparagraph><subparagraph id="H2E6CA8EDF9174FDD80583E30D08992BE"><enum>(B)</enum><header>Updates</header>
+											<clause id="H7E13711D584447BCAAF6D83419686F8F"><enum>(i)</enum><header>In
+				general</header><text>Subject to
+				<internal-xref idref="HAFD2FB5EE7CA490D9D33C29D053231CF" legis-path="615.(a)(3)(B)(ii)">clause (ii)</internal-xref>, a brand owner shall
+				update the data and information submitted under
+				<internal-xref idref="H97AFFBDD4A1A4DBBA9F96A976AABE5A9" legis-path="615.(a)(3)(A)">subparagraph (A)</internal-xref> annually.</text>
+											</clause><clause id="HAFD2FB5EE7CA490D9D33C29D053231CF"><enum>(ii)</enum><header>Adverse health
+				effects</header><text>In the case of information related to an adverse health
+				effect that is suspected to be caused by an ingredient or a cosmetic, a brand
+				owner shall update the information not later than 60 days after receiving such
+				information.</text>
+											</clause></subparagraph></paragraph><paragraph commented="no" id="H018270BE84954AFEAA61C2BE8AB21638"><enum>(4)</enum><header>Supplier and
+				manufacturer information</header>
+										<subparagraph commented="no" id="HBA7C1155EC464FB08B4C05B41841AE2B"><enum>(A)</enum><header>Use of supplier
+				or manufacturer information</header><text>In order to meet the requirements of
+				<internal-xref idref="H5B84A31D26134926A767AC88065D14F0" legis-path="615.(a)(1)">paragraph (1)</internal-xref> with respect to an
+				ingredient, a brand owner may submit safety data and information provided by
+				the supplier or manufacturer of the ingredient or cosmetic.</text>
+										</subparagraph><subparagraph commented="no" id="H68983722F0D349468BE9177C37276F03"><enum>(B)</enum><header>Supplier or
+				manufacturer provision of information</header><text display-inline="yes-display-inline">If a brand owner requests that a supplier
+				or manufacturer of an ingredient provide to such brand owner any of the data
+				and information described under
+				<internal-xref idref="HF0FE4B00D122492ABAE6D0059E12EE41" legis-path="615.(a)(2)">paragraph (2)</internal-xref> or under section 617,
+				such supplier or manufacturer shall provide such data and information to such
+				brand owner not later than 90 days after receiving such request.</text>
+										</subparagraph></paragraph></subsection><subsection commented="no" id="H816EF85638F74B02B8A9DCAC69032B28"><enum>(b)</enum><header>Database</header>
+									<paragraph commented="no" id="H72DD3195A81B41349A380A80EBAD6398"><enum>(1)</enum><header>Initial
+				publication</header><text>Not later than 1 year after the date of the enactment
+				of this subchapter, the Secretary shall publish a comprehensive, publicly
+				accessible database containing all nonconfidential information (as such term is
+				used under
+				<internal-xref idref="H391DD2B4AB3E4EE98375D373D0A9F478" legis-path="623.">section 623</internal-xref>) submitted under
+				<internal-xref idref="H5B84A31D26134926A767AC88065D14F0" legis-path="615.(a)(1)">subsection (a)(1)</internal-xref>.</text>
+									</paragraph><paragraph commented="no" id="H8DCF2A555BF14C4B85F6D44E737C8CC1"><enum>(2)</enum><header>Updates</header><text>Not
+				later than 90 days after the Secretary receives new or updated information
+				under
+				<internal-xref idref="H2E6CA8EDF9174FDD80583E30D08992BE" legis-path="615.(a)(3)(B)">subsection (a)(3)(B)</internal-xref>, the Secretary
+				shall update the database under
+				<internal-xref idref="H72DD3195A81B41349A380A80EBAD6398" legis-path="615.(b)(1)">paragraph (1)</internal-xref> with such
+				information.</text>
+									</paragraph></subsection><subsection id="H6AB143B8D8BF420C81DA12CFE1078B6C"><enum>(c)</enum><header>Review and
+				evaluation of information</header>
+									<paragraph id="H7BF70CB13B37458CBA25BA3BCCB284F1"><enum>(1)</enum><header>In
+				general</header><text display-inline="yes-display-inline">Based on the data and
+				information submitted under
+				<internal-xref idref="H5B84A31D26134926A767AC88065D14F0" legis-path="615.(a)(1)">subsection (a)(1), </internal-xref>available from an
+				authoritative source (as such term is defined in
+				<internal-xref idref="H8D9E1816DB1F4BB89078AD6B2C17B2AB" legis-path="615.(c)(3)">paragraph (3)</internal-xref>, including data described
+				under
+				<internal-xref idref="HAB546EE26B5B4CF280C085968998A3C5" legis-path="627.(b)">section 627(b)</internal-xref>), and such other
+				information as the Secretary may have available, the Secretary shall review and
+				evaluate the safety of cosmetics and ingredients of cosmetics that are marketed
+				in interstate commerce.</text>
+									</paragraph><paragraph commented="no" display-inline="no-display-inline" id="HD7C8F4BE61A847CA92061B0C7248E8A5"><enum>(2)</enum><header>Consideration of
+				nanomaterials</header><text display-inline="yes-display-inline">The Secretary
+				shall—</text>
+										<subparagraph id="HCEF4A1325FAA4DECBF98FE937B0A1A4C"><enum>(A)</enum><text>monitor
+				developments in the scientific understanding from any adverse health effects
+				related to the use of nanotechnology in the formulation of cosmetics (including
+				progress in the standardization of testing methods and specific size
+				definitions for nanomaterials); and</text>
+										</subparagraph><subparagraph id="H5148F07E8C9C4C71A790D42C95C771C4"><enum>(B)</enum><text>consider scale
+				specific hazard properties of ingredients when reviewing and evaluating the
+				safety of cosmetics and ingredients under
+				<internal-xref idref="H7BF70CB13B37458CBA25BA3BCCB284F1" legis-path="615.(c)(1)">paragraph (1)</internal-xref>.</text>
+										</subparagraph></paragraph><paragraph id="H8D9E1816DB1F4BB89078AD6B2C17B2AB"><enum>(3)</enum><header>Authoritative
+				source defined</header><text>For purposes of this paragraph, the term
+				<term>authoritative source</term> means—</text>
+										<subparagraph display-inline="no-display-inline" id="HDBE83689369E4C1CAA9673D35716FB37"><enum>(A)</enum><text>the Environmental
+				Protection Agency;</text>
+										</subparagraph><subparagraph id="HCC467B0B85A141CBBAAF3175B836FAC1"><enum>(B)</enum><text>the International
+				Agency for Research on Cancer;</text>
+										</subparagraph><subparagraph id="H32D10A97D71B470D9B49285FEDF40B45"><enum>(C)</enum><text>the National
+				Toxicity Program through the National Institutes of Health;</text>
+										</subparagraph><subparagraph id="H1B539982D55E4318883070354C7A52B3"><enum>(D)</enum><text>the California
+				Environmental Protection Agency; and</text>
+										</subparagraph><subparagraph id="HE7505C3902A5476A9187FCCE0636ECE6"><enum>(E)</enum><text>any other
+				authoritative international, Federal, and State entity, as determined by the
+				Secretary.</text>
+										</subparagraph></paragraph></subsection></section><section id="H553A11A3AE184847BE49E19590D28006"><enum>616.</enum><header>Lists of
+				ingredients and required responses</header>
+								<subsection id="H2390A81505054A078073EBC752C078CE"><enum>(a)</enum><header>Placement on
+				list</header>
+									<paragraph id="HB7B83799461A4A09AB9A23AF09A9889E"><enum>(1)</enum><header>In
+				general</header><text>Based on an initial review and evaluation of an
+				ingredient under
+				<internal-xref idref="H6AB143B8D8BF420C81DA12CFE1078B6C" legis-path="615.(c)">subsection (c)</internal-xref>, the Secretary shall place
+				the ingredient on one of the following lists:</text>
+										<subparagraph id="H9C00F6D8D1F340DF936F762AE57BEC6E"><enum>(A)</enum><text display-inline="yes-display-inline">The prohibited and restricted list under
+				<internal-xref idref="H8125B901E79B4938A261F591A98CCE90" legis-path="616.(b)">subsection (b)</internal-xref>.</text>
+										</subparagraph><subparagraph id="HFBF4803C5F6B42099700F1DE4E757177"><enum>(B)</enum><text display-inline="yes-display-inline">The safe without limits list under
+				<internal-xref idref="H018831D08D3345ED92028657B49472CD" legis-path="616.(c)">subsection (c)</internal-xref>.</text>
+										</subparagraph><subparagraph id="HF26CFD37958E48ECA429A4864BE84623"><enum>(C)</enum><text display-inline="yes-display-inline">The priority assessment list under
+				<internal-xref idref="H0FD4483D587A42389461003C32019E62" legis-path="616.(d)">subsection (d)</internal-xref>.</text>
+										</subparagraph></paragraph><paragraph id="HDC9B0424837F4A689340AD86E26DFC44"><enum>(2)</enum><header>Considerations</header><text>In
+				determining the placement of an ingredient on a list under
+				<internal-xref idref="H2390A81505054A078073EBC752C078CE" legis-path="616.(a)">subsection (a)</internal-xref>, the Secretary shall
+				consider whether the ingredient—</text>
+										<subparagraph commented="no" id="H10E9A4865F8E4B19A4C85D8278D79D8E"><enum>(A)</enum><text>reacts with other
+				substances to form harmful contaminants;</text>
+										</subparagraph><subparagraph commented="no" id="H079F3346F5CE4727BBEDEB4A97DB1DDF"><enum>(B)</enum><text>is found to be
+				present in the body through biomonitoring;</text>
+										</subparagraph><subparagraph commented="no" id="HFBA9F06F09F8499BA64B39248AB1ED81"><enum>(C)</enum><text>is found in
+				drinking water or air;</text>
+										</subparagraph><subparagraph commented="no" id="H716F2AA064F743C6AD1AF9BD3700BD76"><enum>(D)</enum><text display-inline="yes-display-inline">is a known or suspected neurological or
+				immunological toxicant, respiratory asthmagen, carcinogen, teratogen, or
+				endocrine disruptor, or have other toxicity concerns (including reproductive or
+				developmental toxicity); or</text>
+										</subparagraph><subparagraph commented="no" id="HB73D4E36A38D46F3AC638421406F7C9D"><enum>(E)</enum><text>is known to
+				persist in the environment or bioaccumulate.</text>
+										</subparagraph></paragraph><paragraph id="H2913D4BC002C4522922A7C46C90A6879"><enum>(3)</enum><header>Prioritization
+				of ingredients that are food</header><text>In placing ingredients on the lists
+				under
+				<internal-xref idref="HB7B83799461A4A09AB9A23AF09A9889E" legis-path="616.(a)(1)">paragraph (1)</internal-xref>, the Secretary shall
+				prioritize the placement of ingredients that are food (as such term is defined
+				under section 201(f)) on such lists.</text>
+									</paragraph></subsection><subsection id="H8125B901E79B4938A261F591A98CCE90"><enum>(b)</enum><header>Prohibited and
+				restricted list</header>
+									<paragraph id="HADF1D450C46847CBB98FB0B02FC69BE8"><enum>(1)</enum><header>In
+				general</header><text display-inline="yes-display-inline">Not later than 2
+				years after the date of the enactment of this subchapter, the Secretary shall
+				issue, by regulation, a list of ingredients that are identified by the
+				Secretary—</text>
+										<subparagraph id="HC05F22F0211E437CA847ED4D2FB949B2"><enum>(A)</enum><text display-inline="yes-display-inline">as prohibited for use because the Secretary
+				determines that such ingredients are unsafe for use in cosmetics in any amount
+				because such ingredients fail to meet the safety standard under
+				<internal-xref idref="H71BD2BD40B3E494F8C1FFD6B5D97BB47" legis-path="614.(a)">section 614(a)</internal-xref>; or</text>
+										</subparagraph><subparagraph id="HABF99BE21D4745D08C40B6A7FBCDBC0D"><enum>(B)</enum><text display-inline="yes-display-inline">as being subject to necessary restrictions
+				in use or concentration to allow the use of the ingredient in a cosmetic to
+				satisfy the safety standard.</text>
+										</subparagraph></paragraph><paragraph id="HC3DA6D9CAEF846B3A0A517CB24AE73D4"><enum>(2)</enum><header>Specification of
+				restrictions</header><text>In the case of any ingredient listed under
+				<internal-xref idref="HABF99BE21D4745D08C40B6A7FBCDBC0D" legis-path="616.(b)(1)(B)">paragraph (1)(B)</internal-xref>, the Secretary
+				shall specify the restrictions on use or concentration that are necessary to
+				satisfy the safety standard for such ingredient.</text>
+									</paragraph><paragraph id="HB21C9DA22990438981FB4BDFDF0745AF"><enum>(3)</enum><header>Updates</header><text>The
+				Secretary shall, at a minimum, annually update the list under
+				<internal-xref idref="HADF1D450C46847CBB98FB0B02FC69BE8" legis-path="616.(b)(1)">paragraph (1)</internal-xref>, including any—</text>
+										<subparagraph id="HFEABF191B31246E6BEC54A72954661C7"><enum>(A)</enum><text>determinations
+				under
+				<internal-xref idref="H53BD70262EBE44659973BD77EF8C974E" legis-path="616.(d)(3)">subsection (d)(3)</internal-xref>; or</text>
+										</subparagraph><subparagraph id="H2DFB32C816A94765B459F0DFAD7F3FF1"><enum>(B)</enum><text>new information
+				that demonstrates that an ingredient fails to meet the safety standard, or
+				requires restrictions on use to meet such standard.</text>
+										</subparagraph></paragraph><paragraph display-inline="no-display-inline" id="HD0BEE29D0AFB4A8DB846A44B8B842263"><enum>(4)</enum><header>Manufacturer
+				requirements</header><text>Not later than 1 year after the date that an
+				ingredient is placed on a list under
+				<internal-xref idref="H8125B901E79B4938A261F591A98CCE90" legis-path="616.(b)">subsection (b)</internal-xref>, any manufacturer using
+				such ingredient in a cosmetic shall reformulate such cosmetic to—</text>
+										<subparagraph id="H0A5AB01B1EF74F64AE8FF183320E3A69"><enum>(A)</enum><text>eliminate the use
+				of the ingredient, if it is listed under
+				<internal-xref idref="HC05F22F0211E437CA847ED4D2FB949B2" legis-path="616.(b)(1)(A)">paragraph (1)(A)</internal-xref>; or</text>
+										</subparagraph><subparagraph id="H1C938D1D92C14CA99842CBA9AE71A76C"><enum>(B)</enum><text>modify the use of
+				the ingredient if it is listed under
+				<internal-xref idref="HABF99BE21D4745D08C40B6A7FBCDBC0D" legis-path="616.(b)(1)(B)">paragraph (1)(B)</internal-xref>, to meet the
+				restrictions specified under
+				<internal-xref idref="HC3DA6D9CAEF846B3A0A517CB24AE73D4" legis-path="616.(b)(2)">paragraph (2)</internal-xref>.</text>
+										</subparagraph></paragraph></subsection><subsection display-inline="no-display-inline" id="H018831D08D3345ED92028657B49472CD"><enum>(c)</enum><header>Safe without
+				limits list</header>
+									<paragraph id="HD4016ACBF67240468E99CDD557BCF4EA"><enum>(1)</enum><header>In
+				general</header><text display-inline="yes-display-inline">Not later than 2
+				years after the date of the enactment of this subchapter, the Secretary shall
+				issue, by regulation, a list of ingredients that the Secretary has determined
+				are safe for use in cosmetics, without limits or restrictions.</text>
+									</paragraph><paragraph id="H8D6F2AECCF304778B823091D9DE26027"><enum>(2)</enum><header>Standard for
+				inclusion in list</header><text>The Secretary may only include an ingredient on
+				the list under
+				<internal-xref idref="HD4016ACBF67240468E99CDD557BCF4EA" legis-path="616.(c)(1)">paragraph (1)</internal-xref> if the Secretary
+				determines that the ingredient meets the safety standard under
+				<internal-xref idref="H71BD2BD40B3E494F8C1FFD6B5D97BB47" legis-path="614.(a)">section 614(a)</internal-xref>, regardless of—</text>
+										<subparagraph id="H05062F5CD046414C9BD8D03E4F53497C"><enum>(A)</enum><text>the type and form
+				of cosmetic the ingredient is used in; and</text>
+										</subparagraph><subparagraph id="H42809C1B8C1348BEA7408B233B75384A"><enum>(B)</enum><text>the concentration
+				of the ingredient that is used in a cosmetic.</text>
+										</subparagraph></paragraph><paragraph id="H23EDBC8043F0447D8753E51E81FA9F00"><enum>(3)</enum><header>Updates and
+				redeterminations</header><text>The Secretary shall annually update the list
+				under
+				<internal-xref idref="HD4016ACBF67240468E99CDD557BCF4EA" legis-path="616.(c)(1)">paragraph (1)</internal-xref> and may redetermine
+				whether an ingredient distributed in commerce meets the safety standard if, in
+				the judgment of the Secretary, new information raises a credible question as to
+				whether the ingredient continues to meet the safety standard.</text>
+									</paragraph></subsection><subsection display-inline="no-display-inline" id="H0FD4483D587A42389461003C32019E62"><enum>(d)</enum><header>Priority
+				assessment list and related safety determinations</header>
+									<paragraph id="HA4002B1F8C41453196D8DBBC23A69CD9"><enum>(1)</enum><header>In
+				general</header><text>Not later than 2 years after the date of the enactment of
+				this subchapter, the Secretary shall develop and publish a priority assessment
+				list of not less than 300 ingredients—</text>
+										<subparagraph id="HC866B59605494120ACB27943B393B599"><enum>(A)</enum><text>which, because of
+				a lack of authoritative information on the safety of the ingredient, cannot be
+				included on—</text>
+											<clause display-inline="no-display-inline" id="H1D4B7723784847FE88B51B13A3C7D165"><enum>(i)</enum><text>the list under
+				<internal-xref idref="H8125B901E79B4938A261F591A98CCE90" legis-path="616.(b)">subsection (b)</internal-xref> (relating to prohibited and
+				restricted ingredients); or</text>
+											</clause><clause id="H549A5A62E073466F84EEE77FD4A22895"><enum>(ii)</enum><text display-inline="yes-display-inline">the list under
+				<internal-xref idref="H018831D08D3345ED92028657B49472CD" legis-path="616.(c)">subsection (c)</internal-xref> (relating to ingredients
+				that are safe without limits); and</text>
+											</clause></subparagraph><subparagraph id="HC46BD82D5667431B8712D14284DE9BBC"><enum>(B)</enum><text>for which the
+				Secretary has determined it is a priority to conduct a safety determination
+				under
+				<internal-xref idref="H53BD70262EBE44659973BD77EF8C974E" legis-path="616.(d)(3)">paragraph (3)</internal-xref>.</text>
+										</subparagraph></paragraph><paragraph id="H6739C37721054EDE8925C2999A1B5BDE"><enum>(2)</enum><header>Annual addition
+				of ingredients</header><text>After the list is developed under
+				<internal-xref idref="HA4002B1F8C41453196D8DBBC23A69CD9" legis-path="616.(d)(1)">paragraph (1)</internal-xref>, the Secretary shall
+				annually add at least 100 additional ingredients to such list until all
+				ingredients that are used in the formulation or manufacture of cosmetics have
+				been added—</text>
+										<subparagraph id="H6CAC4A936E0F4733B107832520406F82"><enum>(A)</enum><text>to such
+				list;</text>
+										</subparagraph><subparagraph id="H3F27A39744254AD58CC4387026C1CCC1"><enum>(B)</enum><text>to the list under
+				<internal-xref idref="H8125B901E79B4938A261F591A98CCE90" legis-path="616.(b)">subsection (b)</internal-xref>; or</text>
+										</subparagraph><subparagraph id="H8515965EC82F45A794AC48E12EC78ECE"><enum>(C)</enum><text display-inline="yes-display-inline">to the list under
+				<internal-xref idref="H018831D08D3345ED92028657B49472CD" legis-path="616.(c)">subsection (c)</internal-xref>.</text>
+										</subparagraph></paragraph><paragraph display-inline="no-display-inline" id="H53BD70262EBE44659973BD77EF8C974E"><enum>(3)</enum><header>Determination of
+				whether ingredient meets safety standard</header>
+										<subparagraph id="HDA07677F9DC1405EB8BB6F39FF83E0E1"><enum>(A)</enum><header>Review of
+				priority ingredients</header><text>During the 2-year period following the date
+				on which an ingredient is placed on the list under
+				<internal-xref idref="HA4002B1F8C41453196D8DBBC23A69CD9" legis-path="616.(d)(1)">paragraph (1)</internal-xref>, the Secretary
+				shall—</text>
+											<clause commented="no" id="H0E47D9F60AC74A7D8DA9B7AAC7554A67"><enum>(i)</enum><text>collect data and
+				information on such ingredient; and</text>
+											</clause><clause id="H7ABDDDA8B1A5425BA39AF49883E17C08"><enum>(ii)</enum><text>review and
+				evaluate the safety of such ingredient.</text>
+											</clause></subparagraph><subparagraph id="HF016D9C024644FD5B148B3448CDA2600"><enum>(B)</enum><header>Determination of
+				list placement</header><text>Not later than the end of the period under
+				<internal-xref idref="HDA07677F9DC1405EB8BB6F39FF83E0E1" legis-path="616.(d)(3)(A)">subparagraph (A)</internal-xref>, the Secretary
+				shall issue a determination, based on the review and evaluation under such
+				clause, that—</text>
+											<clause id="H8B38070FCEBA4CF89471EC13440ACAB9"><enum>(i)</enum><text>the ingredient
+				meets the requirements for inclusion on a list under
+				<internal-xref idref="H8125B901E79B4938A261F591A98CCE90" legis-path="616.(b)">subsection (b)</internal-xref> (relating to prohibited and
+				restricted ingredients) or
+				<internal-xref idref="H018831D08D3345ED92028657B49472CD" legis-path="616.(c)">subsection (c)</internal-xref> (relating to ingredients
+				that are safe without limits); or</text>
+											</clause><clause id="H33941568AF1E46589ABA7A0A6BEC7722"><enum>(ii)</enum><text>insufficient
+				information exists to place the ingredient on either such list.</text>
+											</clause></subparagraph><subparagraph id="H88AA93F37D074A3BAFE3522F60E1F79A"><enum>(C)</enum><header>Guidance in the
+				case of insufficient information</header><text display-inline="yes-display-inline">If the Secretary determines under
+				<internal-xref idref="HF016D9C024644FD5B148B3448CDA2600" legis-path="616.(d)(3)(B)">subparagraph (B)</internal-xref> that, with respect
+				to an ingredient, insufficient information exists to place such ingredient on
+				either of the lists under
+				<internal-xref idref="H8125B901E79B4938A261F591A98CCE90" legis-path="616.(b)">subsection (b)</internal-xref> or
+				<internal-xref idref="H018831D08D3345ED92028657B49472CD" legis-path="616.(c)">subsection (c)</internal-xref>, the Secretary shall
+				provide guidance on the data and information (including minimum data
+				requirements and safety testing protocols) that the Secretary requires to
+				evaluate whether the ingredient meets the safety standard under
+				<internal-xref idref="H71BD2BD40B3E494F8C1FFD6B5D97BB47" legis-path="614.(a)">section 614(a)</internal-xref> for purposes of placing
+				such ingredient on such a list.</text>
+										</subparagraph><subparagraph commented="no" id="H6B1678231B864704BE727D8E19BB10AB"><enum>(D)</enum><header>Comment
+				period</header><text>Upon issuing the determination under
+				<internal-xref idref="HF016D9C024644FD5B148B3448CDA2600" legis-path="616.(d)(3)(B)">subparagraph (B)</internal-xref>, and, if
+				applicable, the guidance under
+				<internal-xref idref="H88AA93F37D074A3BAFE3522F60E1F79A" legis-path="616.(d)(3)(C)">subparagraph (C)</internal-xref>, the Secretary
+				shall provide a period of not less than 60 days for public comment on the
+				determination before applying such determination to an ingredient, except that
+				a shorter period for comment may be provided if the Secretary—</text>
+											<clause commented="no" id="HAF32ECEA64BF40A69FD48ED90DBEA54C"><enum>(i)</enum><text>finds that it
+				would be in the public interest to have a shorter period; and</text>
+											</clause><clause commented="no" id="HC27D845037AE4F6480CA7B57BAAFF4B6"><enum>(ii)</enum><text>publicly declares
+				the reasons for such finding.</text>
+											</clause></subparagraph></paragraph><paragraph display-inline="no-display-inline" id="H3FF44706AD0B43EF8CB740642721C797"><enum>(4)</enum><header>Response to
+				inadequate information</header><text display-inline="yes-display-inline">Not
+				later than 18 months after the date that the Secretary issues guidance under
+				<internal-xref idref="H88AA93F37D074A3BAFE3522F60E1F79A" legis-path="616.(d)(3)(C)">paragraph (3)(C)</internal-xref> with respect to an
+				ingredient subject to a determination under
+				<internal-xref idref="HF016D9C024644FD5B148B3448CDA2600" legis-path="616.(d)(3)(B)">paragraph (3)(B)</internal-xref>, a brand owner
+				using such ingredient in a cosmetic shall—</text>
+										<subparagraph id="HF4F254D0316748D0B2C00884380D9EAA"><enum>(A)</enum><text>reformulate such
+				cosmetic to eliminate the use of the ingredient; or</text>
+										</subparagraph><subparagraph id="HD9A3CF368AA741F688274259E83EA75A"><enum>(B)</enum><text display-inline="yes-display-inline">provide the Secretary with the data and
+				information specified in such guidance.</text>
+										</subparagraph></paragraph><paragraph id="H7F33F54896CA4984A90B632D792FA162"><enum>(5)</enum><header>Evaluation of
+				additional data and information</header><text display-inline="yes-display-inline">With respect to an ingredient, not later
+				than 6 months after the Secretary receives the data and information under
+				<internal-xref idref="HD9A3CF368AA741F688274259E83EA75A" legis-path="616.(d)(4)(B)">paragraph (4)(B)</internal-xref> the Secretary shall
+				review such data and information and shall make a redetermination under
+				<internal-xref idref="HF016D9C024644FD5B148B3448CDA2600" legis-path="616.(d)(3)(B)">paragraph (3)(B)</internal-xref> for such
+				ingredient, subject to the comment period under
+				<internal-xref idref="H6B1678231B864704BE727D8E19BB10AB" legis-path="616.(d)(3)(D)">paragraph (3)(D)</internal-xref>.</text>
+									</paragraph><paragraph id="HA1685F6B56E74930B03F47E9AD414640"><enum>(6)</enum><header>Limitation</header><text>If
+				the Secretary has not placed an ingredient on either of the lists under
+				<internal-xref idref="H8125B901E79B4938A261F591A98CCE90" legis-path="616.(b)">subsection (b)</internal-xref> and
+				<internal-xref idref="H018831D08D3345ED92028657B49472CD" legis-path="616.(c)">subsection (c)</internal-xref> by the end of the 5-year
+				period beginning on the date that such ingredient is first placed on the list
+				under
+				<internal-xref idref="H0FD4483D587A42389461003C32019E62" legis-path="616.(d)">subsection (d)</internal-xref>, beginning on the first day
+				after such period such ingredient may not be—</text>
+										<subparagraph id="H91B8B15A3BDF4866AC51F62AF7B59810"><enum>(A)</enum><text>used in a
+				cosmetic; and</text>
+										</subparagraph><subparagraph id="H120CD4D1B25E42859300636753252D03"><enum>(B)</enum><text>manufactured,
+				imported, distributed, or marketed for use in cosmetics.</text>
+										</subparagraph></paragraph></subsection></section><section id="H83BCCF2B67224AD7ABDB82AD1055E44A"><enum>617.</enum><header>Treatment of
+				cosmetics based on ingredient lists</header>
+								<subsection commented="no" id="H08C9D66BFE724BF89A4F26DC81DC9C78"><enum>(a)</enum><header>In
+				general</header><text display-inline="yes-display-inline">Subject to
+				subsections (b)(4) and (d)(4) of
+				<internal-xref idref="H553A11A3AE184847BE49E19590D28006" legis-path="616.">section 616</internal-xref>, a brand owner may only
+				distribute in interstate commerce a cosmetic that meets the safety standard
+				under
+				<internal-xref idref="H71BD2BD40B3E494F8C1FFD6B5D97BB47" legis-path="614.(a)">section 614(a)</internal-xref>.</text>
+								</subsection><subsection id="H3736C88D6B0A458C97CF2225C0C5D163"><enum>(b)</enum><header>Presumption
+				related to the safety of cosmetics</header>
+									<paragraph id="H2715D811C17B46F295D3726CB61E7ADB"><enum>(1)</enum><header>In
+				general</header><text>Subject to
+				<internal-xref idref="HC3E263AB4D7A49C9B4F7C677CE970CF7" legis-path="617.(b)(2)">paragraph (2)</internal-xref>, for purposes of
+				<internal-xref idref="H08C9D66BFE724BF89A4F26DC81DC9C78" legis-path="617.(a)">subsection (a)</internal-xref>, the Secretary shall
+				presume that the following cosmetics meet the safety standard under
+				<internal-xref idref="H71BD2BD40B3E494F8C1FFD6B5D97BB47" legis-path="614.(a)">section 614(a)</internal-xref>:</text>
+										<subparagraph id="H278FF5FE27314A7FAC5F27B8BEBEC2A1"><enum>(A)</enum><text>A cosmetic that is
+				made solely of ingredients on the list under
+				<internal-xref idref="HD4016ACBF67240468E99CDD557BCF4EA" legis-path="616.(c)(1)">section 616(c)(1) </internal-xref>(relating to
+				ingredients that are safe without limits).</text>
+										</subparagraph><subparagraph id="H1624B87BDF984A019248D25FB210835A"><enum>(B)</enum><text>A cosmetic that is
+				made solely of ingredients on the list under
+				<internal-xref idref="HABF99BE21D4745D08C40B6A7FBCDBC0D" legis-path="616.(b)(1)(B)">section 616(b)(1)(B)</internal-xref> (relating to
+				ingredients subject to restrictions) and the use of each of such ingredients in
+				such cosmetic is in compliance with the restrictions on the use of such
+				ingredients specified under
+				<internal-xref idref="HC3DA6D9CAEF846B3A0A517CB24AE73D4" legis-path="616.(b)(2)">section 616(b)(2)</internal-xref>.</text>
+										</subparagraph><subparagraph id="HDE1E5457E6484450BCC7A236F372A3E1"><enum>(C)</enum><text>A cosmetic that is
+				made solely of ingredients described under
+				<internal-xref idref="H278FF5FE27314A7FAC5F27B8BEBEC2A1" legis-path="617.(b)(1)(A)">subparagraph (A)</internal-xref> and
+				<internal-xref idref="H1624B87BDF984A019248D25FB210835A" legis-path="617.(b)(1)(B)">subparagraph (B)</internal-xref>.</text>
+										</subparagraph></paragraph><paragraph id="HC3E263AB4D7A49C9B4F7C677CE970CF7"><enum>(2)</enum><header>Exceptions</header><text display-inline="yes-display-inline">The Secretary may require that a brand
+				owner demonstrate that a cosmetic meets the safety standard under
+				<internal-xref idref="H71BD2BD40B3E494F8C1FFD6B5D97BB47" legis-path="614.(a)">section 614(a)</internal-xref> (including by requiring
+				that the brand owner conduct safety testing, or request such safety testing
+				from relevant suppliers and manufacturers, of a cosmetic described under
+				<internal-xref idref="H2715D811C17B46F295D3726CB61E7ADB" legis-path="617.(b)(1)">paragraph (1)</internal-xref>) if the cosmetic—</text>
+										<subparagraph id="HD4155E7EE4E2462EA0D4ECA36BFB04A7"><enum>(A)</enum><text>contains
+				penetration enhancers, sensitizers, estrogenic chemicals, or other similar
+				ingredients;</text>
+										</subparagraph><subparagraph id="H8CCDEB08AAD14D58A63BE7313EA7A757"><enum>(B)</enum><text>contains
+				ingredients that react with each other or with other substances to form harmful
+				byproducts; or</text>
+										</subparagraph><subparagraph commented="no" id="H59BA591A87454DBD8609A2726FEF80EB"><enum>(C)</enum><text>the Secretary has
+				any additional reason to believe that such cosmetic does not meet the safety
+				standard under
+				<internal-xref idref="H71BD2BD40B3E494F8C1FFD6B5D97BB47" legis-path="614.(a)">section 614(a)</internal-xref>.</text>
+										</subparagraph></paragraph><paragraph id="H416C85976A934B53BF988850B1256332"><enum>(3)</enum><header>Guidance</header><text display-inline="yes-display-inline">If, under
+				<internal-xref idref="HC3E263AB4D7A49C9B4F7C677CE970CF7" legis-path="617.(b)(2)">paragraph (2)</internal-xref>, the Secretary requires
+				that a brand owner demonstrate that a cosmetic meets the safety standard under
+				<internal-xref idref="H71BD2BD40B3E494F8C1FFD6B5D97BB47" legis-path="614.(a)">section 614(a)</internal-xref>, the Secretary shall
+				provide the brand owner with guidance on the data and information that the
+				Secretary requires to evaluate whether the cosmetic meets the safety standard
+				under such section.</text>
+									</paragraph></subsection><subsection display-inline="no-display-inline" id="H619AE16EE8E84043AD024C4CDFA2EE05"><enum>(c)</enum><header>Notification of
+				failure of Secretary To act</header><text display-inline="yes-display-inline">If the Secretary fails to act by an
+				applicable deadline under section 616 or this section, brand owners and
+				manufacturers of an ingredient or a cosmetic affected by such failure of the
+				Secretary to act shall issue to the Secretary, the public, and each known
+				customer of the ingredient or cosmetic, a written notice that a determination
+				by the Secretary of the safety of the ingredient for use in cosmetics is
+				pending.</text>
+								</subsection></section><section id="HA37156E5EFEB4CB5B7A425ABDBA2FF75"><enum>618.</enum><header>Treatment of
+				contaminants</header>
+								<subsection id="H24E03148028A4444B5CD046C03D74824"><enum>(a)</enum><header>Publication of
+				list</header><text display-inline="yes-display-inline">Not later than 1 year
+				after the date of the enactment of this subchapter, and annually thereafter,
+				the Secretary shall publish a list of contaminants of concern linked to severe
+				acute reactions or long-term adverse health effects, including—</text>
+									<paragraph display-inline="no-display-inline" id="H049A73F211674B418A57D5CD2B8D1C4B"><enum>(1)</enum><text>ingredients used
+				in cosmetics that may contain contaminants of concern;</text>
+									</paragraph><paragraph commented="no" id="H85C0FB7514294B06BD1E31475384F9E9"><enum>(2)</enum><text>combinations of
+				ingredients that may create contaminants of concern when such ingredients
+				interact;</text>
+									</paragraph><paragraph id="H0D958D4E23914F21B90A85B459C1914F"><enum>(3)</enum><text>contaminants of
+				concern that may leech from product packaging into a cosmetic; and</text>
+									</paragraph><paragraph id="H1CFBE79258D84FD58F2AE7DADB344DAE"><enum>(4)</enum><text>any other
+				contaminant of concern identified by the Secretary that are present in
+				cosmetics.</text>
+									</paragraph></subsection><subsection commented="no" id="H5731538E18B64FC283C9559B36121941"><enum>(b)</enum><header>Evaluation;
+				labeling</header><text display-inline="yes-display-inline">The Secretary shall
+				use the process described in sections 615 and 616 to evaluate contaminants of
+				concern for possible elimination or restriction in cosmetics. The Secretary
+				shall require that a contaminant on the list under subsection (a) be declared
+				on the label of a cosmetic, in the same manner as an ingredient under section
+				613.</text>
+								</subsection><subsection id="H825272940706419ABBE7F851351FF0BD"><enum>(c)</enum><header>Requirements for
+				testing</header>
+									<paragraph id="HB1C6FF0E926041DD8F3A8AA8CB148B76"><enum>(1)</enum><header>In
+				general</header><text>Not later than 1 year after the date of enactment of this
+				subchapter, the Secretary shall establish, by rule, requirements for testing
+				ingredients and cosmetics for contaminants listed under
+				<internal-xref idref="H24E03148028A4444B5CD046C03D74824" legis-path="618.(a)">subsection (a)</internal-xref>.</text>
+									</paragraph><paragraph id="H4B9E53D2985042D2BD26BD59443CE002"><enum>(2)</enum><header>Contents</header><text>The
+				requirements under
+				<internal-xref idref="HB1C6FF0E926041DD8F3A8AA8CB148B76" legis-path="618.(b)(1)">paragraph (1)</internal-xref> shall include—</text>
+										<subparagraph id="H2DFF5AEC396E4578A018EC93AEA511BB"><enum>(A)</enum><text>testing methods
+				and applicable protocols; and</text>
+										</subparagraph><subparagraph id="H4D8C7E43796D4A31889F3654DE2EB88A"><enum>(B)</enum><text>maximum allowable
+				detection limits for each contaminant in an ingredient or cosmetic.</text>
+										</subparagraph></paragraph><paragraph id="H84BEF9D3BC84449D99FC52BF874BC0C1"><enum>(3)</enum><header>Update</header><text>The
+				Secretary shall annually update the requirements under
+				<internal-xref idref="HB1C6FF0E926041DD8F3A8AA8CB148B76" legis-path="618.(b)(1)">paragraph (1)</internal-xref>.</text>
+									</paragraph></subsection><subsection id="H3329A1CAD988462990F7D87A4F22CE9F"><enum>(d)</enum><header>Supplier
+				requirements</header><text>Not later than 1 year after the promulgation of the
+				rule under
+				<internal-xref idref="HB1C6FF0E926041DD8F3A8AA8CB148B76" legis-path="618.(b)(1)">subsection (b)(1)</internal-xref>, a supplier of an
+				ingredient that is used in a cosmetic shall, with respect to such
+				ingredient—</text>
+									<paragraph id="H56999DBE09E1401B93929F2A81068C42"><enum>(1)</enum><text display-inline="yes-display-inline">comply with the requirements under
+				<internal-xref idref="HB1C6FF0E926041DD8F3A8AA8CB148B76" legis-path="618.(b)(1)">subsection (b)(1)</internal-xref> for any ingredient
+				listed under
+				<internal-xref idref="H24E03148028A4444B5CD046C03D74824" legis-path="618.(a)">subsection (a)</internal-xref>;</text>
+									</paragraph><paragraph id="HA9D39E1CAFE5407FAEEFCA574B8DDDDB"><enum>(2)</enum><text>conduct similar
+				testing on any ingredient that—</text>
+										<subparagraph id="H4D031FDD618C4C5BB78B2424D5683CD0"><enum>(A)</enum><text>the supplier
+				expects may be used in a cosmetic;</text>
+										</subparagraph><subparagraph id="H49555C25BD78408B8BAE581367194A53"><enum>(B)</enum><text>the supplier
+				suspects may contain a contaminant of concern; and</text>
+										</subparagraph><subparagraph id="HC9B4CD91DED046E0AEF0C39C0E732362"><enum>(C)</enum><text>is not listed
+				under
+				<internal-xref idref="H24E03148028A4444B5CD046C03D74824" legis-path="618.(a)">subsection (a)</internal-xref>; and</text>
+										</subparagraph></paragraph><paragraph commented="no" id="H3BEDC56613F64A9F80A9BADEE81D9643"><enum>(3)</enum><text>upon the sale of
+				an ingredient to the manufacturer, provide to the manufacturer specifications
+				for the ingredient that—</text>
+										<subparagraph id="HF41E2EB86CC94B248D45EA0C66083172"><enum>(A)</enum><text>include the levels
+				of contaminants present in such ingredient; and</text>
+										</subparagraph><subparagraph id="H8031EEB185AB4A55912CBED651F3FFFE"><enum>(B)</enum><text>are based on the
+				results of the tests under
+				<internal-xref idref="H56999DBE09E1401B93929F2A81068C42" legis-path="618.(c)(1)">paragraph (1)</internal-xref> and
+				<internal-xref idref="HA9D39E1CAFE5407FAEEFCA574B8DDDDB" legis-path="618.(c)(2)">paragraph (2)</internal-xref>.</text>
+										</subparagraph></paragraph></subsection><subsection id="H4F7F7DF77D1B45378C6E69A06E3EE89A"><enum>(e)</enum><header>Brand owner
+				requirements</header><text display-inline="yes-display-inline">Not later than 1
+				year after the promulgation of the rule under
+				<internal-xref idref="HB1C6FF0E926041DD8F3A8AA8CB148B76" legis-path="618.(b)(1)">subsection (b)(1)</internal-xref>, a brand owner of a
+				cosmetic shall, with respect to each ingredient that the brand owner uses in a
+				cosmetic—</text>
+									<paragraph id="HF346020136FB4B7D9DC176564C254838"><enum>(1)</enum><text display-inline="yes-display-inline">obtain, from each supplier or manufacturer
+				of the ingredient, specifications for the ingredient that include—</text>
+										<subparagraph id="HBF46D957078240BEB06E5B9CAB3A6C15"><enum>(A)</enum><text>the level of each
+				contaminant present in the ingredient; and</text>
+										</subparagraph><subparagraph id="HA45FA5D2E0484C4A96C900E6242E435B"><enum>(B)</enum><text>the detection
+				limits of the analytical test used to detect the contaminant; or</text>
+										</subparagraph></paragraph><paragraph id="HD22B23CC5215492EB0C0E7A0AD33BAE0"><enum>(2)</enum><text display-inline="yes-display-inline">comply with the requirements under
+				paragraphs (1) and (2) of
+				<internal-xref idref="H3329A1CAD988462990F7D87A4F22CE9F" legis-path="618.(c)">subsection (c)</internal-xref> for the ingredient, in the
+				same manner as if the brand owner were a supplier.</text>
+									</paragraph></subsection></section><section commented="no" id="H9A75AB84C124415DB4EB5EFB104E4189"><enum>619.</enum><header>Cosmetic and
+				ingredient statements</header>
+								<subsection commented="no" id="H64CDF72C09F14D5B916F30547F3C65F3"><enum>(a)</enum><header>In
+				general</header><text display-inline="yes-display-inline">Beginning 1 year
+				after the date of the enactment of this subchapter, each brand owner of a
+				cosmetic intended to be marketed in the United States shall submit
+				electronically to the Secretary, for each cosmetic that is intended to be
+				marketed in the United States, a statement containing—</text>
+									<paragraph id="HD7180F591CE04BD3A0BC58A37C13BAE5"><enum>(1)</enum><text>the registration
+				number of the brand owner;</text>
+									</paragraph><paragraph id="H4CB47498EC84432C9FD493C1B8C5C50B"><enum>(2)</enum><text>the brand name and
+				the product name for the cosmetic;</text>
+									</paragraph><paragraph id="HEE10DDB007A4416BAD76C18F64B942FD"><enum>(3)</enum><text>the applicable use
+				for the cosmetic;</text>
+									</paragraph><paragraph id="HFB307B8C8385426993CF6142A015CDEE"><enum>(4)</enum><text>the ingredient
+				list as it appears on the cosmetic label or insert, including the particle size
+				range of any nanoscale cosmetic ingredients;</text>
+									</paragraph><paragraph id="H2BBC7ED9572A4A3AA2A4EBB35659CB63"><enum>(5)</enum><text>any warnings and
+				directions for use from the cosmetic label or insert; and</text>
+									</paragraph><paragraph id="HC3D4BB0492F84724ACB42EBD80421A44"><enum>(6)</enum><text>the title and full
+				contact information for the individual responsible for submitting and
+				maintaining such statement.</text>
+									</paragraph></subsection><subsection commented="no" id="H73F2CF1AF1CD417B8D106E99543541A5"><enum>(b)</enum><header>New
+				cosmetics</header><text>Any brand owner that begins to market a cosmetic after
+				the date of the enactment of this subchapter shall comply with the requirements
+				of
+				<internal-xref idref="H64CDF72C09F14D5B916F30547F3C65F3" legis-path="619.(a)">subsection (a)</internal-xref> beginning on the later of
+				the following:</text>
+									<paragraph commented="no" id="HB64636DD96AD46F8ACB430191AD8F7D4"><enum>(1)</enum><text>The end of the
+				18-month period beginning on the date of the enactment of this
+				subchapter.</text>
+									</paragraph><paragraph commented="no" id="H98813B62D845414A81E4D285D3A758A0"><enum>(2)</enum><text>The 6-month period
+				after the date on which the establishment begins to manufacture such
+				cosmetic.</text>
+									</paragraph></subsection><subsection id="H551EC62BECB9478C93C60A12AE3F13F7"><enum>(c)</enum><header>Notification of
+				changes</header><text display-inline="yes-display-inline">The brand owner shall
+				notify the Secretary annually of any change to the information required under
+				<internal-xref idref="H64CDF72C09F14D5B916F30547F3C65F3" legis-path="619.(a)">subsection (a)</internal-xref>.</text>
+								</subsection><subsection id="HF14DAFA98D07452CB1BD427E34ECE773"><enum>(d)</enum><header>Procedure</header><text>Upon
+				receipt of a completed statement described under
+				<internal-xref idref="H64CDF72C09F14D5B916F30547F3C65F3" legis-path="619.(a)">subsection (a)</internal-xref>, the Secretary shall notify
+				the brand owner of the receipt of such statement and assign a cosmetic
+				statement number.</text>
+								</subsection><subsection id="H75D814E62DCF44C49BCB1634AEEF0CC4"><enum>(e)</enum><header>List</header><text>The
+				Secretary shall compile, maintain, and update as appropriate, a list of
+				cosmetics for which statements are submitted under this section.</text>
+								</subsection><subsection id="H2D769E7DC1424376AE7750EFF9BFFE8D"><enum>(f)</enum><header>Access to safety
+				information</header><text>The cosmetic and ingredient statements collected
+				under this section shall be added to the publicly accessible database created
+				by the Secretary under
+				<internal-xref idref="H816EF85638F74B02B8A9DCAC69032B28" legis-path="615.(b)">section 615(b)</internal-xref>.</text>
+								</subsection></section><section commented="no" display-inline="no-display-inline" id="H0E1C8540E41F4DDEA93CA49442278A35" section-type="subsequent-section"><enum>620.</enum><header>Notification,
+				nondistribution, and recall of adulterated or misbranded cosmetics</header>
+								<subsection commented="no" id="H2C4933CE14034D44B009DC5D25AF9178"><enum>(a)</enum><header>Notification of
+				adulterated or misbranded cosmetics</header>
+									<paragraph commented="no" id="H67FE382F0F1C4A2B83B5823A91968544"><enum>(1)</enum><header>In
+				general</header><text display-inline="yes-display-inline">A responsible party
+				that has reason to believe that a cosmetic, when introduced into or while in
+				interstate commerce, or while held for sale (regardless of whether such sale is
+				the first sale of such cosmetic) after shipment in interstate commerce, is
+				adulterated or misbranded in a manner that presents a reasonable probability
+				that the use or exposure to the cosmetic (or an ingredient or component used in
+				any such cosmetic) will cause a threat of serious adverse event shall notify
+				the Secretary of the identity and location of the cosmetic.</text>
+									</paragraph><paragraph commented="no" id="H84B2FD1437894E0081081552ADB504FC"><enum>(2)</enum><header>Manner of
+				notification</header><text>Notification under
+				<internal-xref idref="H67FE382F0F1C4A2B83B5823A91968544" legis-path="620.(a)(1)">paragraph (1)</internal-xref> shall be made in such
+				manner and by such means as the Secretary may require by regulation or
+				guidance.</text>
+									</paragraph><paragraph commented="no" id="H0D0913FDD35642C8B2BF55BB4B728C92"><enum>(3)</enum><header>Responsible
+				party defined</header><text display-inline="yes-display-inline">For purposes of
+				this subsection, the term <term>responsible party</term> means a brand owner,
+				manufacturer, packager, retailer, or distributor of the cosmetic.</text>
+									</paragraph></subsection><subsection commented="no" id="H0292D14009E04BF58CA656592E61EE00"><enum>(b)</enum><header>Voluntary
+				recall</header><text display-inline="yes-display-inline">The Secretary may
+				request that any person who distributes a cosmetic that the Secretary has
+				reason to believe is adulterated, misbranded, or otherwise in violation of this
+				Act voluntarily—</text>
+									<paragraph commented="no" id="H00E2D35A46DF4454A8A85BB25771100A"><enum>(1)</enum><text>recall such
+				cosmetic; and</text>
+									</paragraph><paragraph commented="no" id="HC5B463AE0CAF4C36AA998138598E6223"><enum>(2)</enum><text>provide for
+				notice, including to individuals as appropriate, to persons who may be affected
+				by the recall.</text>
+									</paragraph></subsection><subsection commented="no" id="H35D9C4EB27DF4F879A64BCF8BAB92985"><enum>(c)</enum><header>Order To cease
+				distribution</header>
+									<paragraph commented="no" id="HD7AA3F6520314BDBB675D5E8E77217E8"><enum>(1)</enum><header>In
+				general</header><text>If the Secretary has reason to believe that—</text>
+										<subparagraph commented="no" id="H85E08E25EC534CC682679BB12295481C"><enum>(A)</enum><text display-inline="yes-display-inline">the use of, or exposure to, a cosmetic may
+				cause serious adverse event;</text>
+										</subparagraph><subparagraph commented="no" id="H8E85FE8B204848669438DE95695FF110"><enum>(B)</enum><text>the cosmetic is
+				misbranded; or</text>
+										</subparagraph><subparagraph commented="no" id="HE6674A267BB4474F8FF7C1766792B0CD"><enum>(C)</enum><text display-inline="yes-display-inline">the cosmetic is marketed, manufactured,
+				packaged, or distributed by an unregistered brand owner;</text>
+										</subparagraph><continuation-text commented="no" continuation-text-level="paragraph">the Secretary shall have the
+				authority to issue an order requiring any person who distributes such cosmetic
+				to immediately cease distribution of such cosmetic.</continuation-text></paragraph><paragraph id="H3000709EB12744D987527E2D55BE6784"><enum>(2)</enum><header>Cease
+				distribution and notice</header><text>Any person who is subject to an order
+				under
+				<internal-xref idref="HD7AA3F6520314BDBB675D5E8E77217E8" legis-path="620.(c)(1)">paragraph (1)</internal-xref> shall immediately cease
+				distribution of such cosmetic and provide notification as required by such
+				order.</text>
+									</paragraph><paragraph id="HB1CD9462DF054A6993D6F74E17CA74BF"><enum>(3)</enum><header>Appeal</header>
+										<subparagraph id="HDCB718E2A59C49DC98416451E366F470"><enum>(A)</enum><header>24
+				hours</header><text>A person subject to an order under
+				<internal-xref idref="HD7AA3F6520314BDBB675D5E8E77217E8" legis-path="620.(c)(1)">paragraph (1)</internal-xref> may appeal such order to
+				the Secretary within 24 hours of the issuance of such order.</text>
+										</subparagraph><subparagraph id="HF04D9DE1E1304F7793EADAB074309BA6"><enum>(B)</enum><header>Contents of
+				appeal</header><text>Such appeal may include a request for an informal hearing
+				and a description of any efforts to recall such cosmetic undertaken voluntarily
+				by the person, including after a request under
+				<internal-xref idref="H0292D14009E04BF58CA656592E61EE00" legis-path="620.(b)">subsection (b)</internal-xref>.</text>
+										</subparagraph><subparagraph id="H9FA9C58EE80240598462FBAC446FB1F6"><enum>(C)</enum><header>Informal
+				hearing</header><text display-inline="yes-display-inline">Except as provided in
+				<internal-xref idref="H96E15102AABD4664B6E3E042D0C20F91" legis-path="620.(e)">subsection (e)</internal-xref>, an informal hearing shall
+				be held as soon as practicable, but not later than 5 calendar days (or less as
+				determined by the Secretary) after such an appeal is filed, unless the parties
+				jointly agree to an extension.</text>
+										</subparagraph><subparagraph id="HF5627630A72D42DC9007E4A699E01A57"><enum>(D)</enum><header>Impact on
+				recall</header><text>If an appeal is filed under
+				<internal-xref idref="HDCB718E2A59C49DC98416451E366F470" legis-path="620.(c)(3)(A)">subparagraph (A)</internal-xref>, the Secretary may
+				not amend the order to require a recall under
+				<internal-xref idref="HEC9D3495ABE142B98D385B1E2ED2BB73" legis-path="620.(d)">subsection (d)</internal-xref> until after the conclusion
+				of the hearing under
+				<internal-xref idref="H9FA9C58EE80240598462FBAC446FB1F6" legis-path="620.(c)(3)(C)">subparagraph (C)</internal-xref>.</text>
+										</subparagraph></paragraph><paragraph id="H9A0499D8DFC445BDAC80A3103EE5A567"><enum>(4)</enum><header>Vacation of
+				order</header><text>If the Secretary determines that inadequate grounds exist
+				to support the actions required by the order under
+				<internal-xref idref="HD7AA3F6520314BDBB675D5E8E77217E8" legis-path="620.(c)(1)">paragraph (1)</internal-xref>, the Secretary shall
+				vacate the order.</text>
+									</paragraph></subsection><subsection commented="no" id="HEC9D3495ABE142B98D385B1E2ED2BB73"><enum>(d)</enum><header>Order To
+				recall</header>
+									<paragraph commented="no" id="H7CC76EFF87424C5BBB004D03B8F7B087"><enum>(1)</enum><header>Amendment</header><text>Except
+				as provided under
+				<internal-xref idref="H96E15102AABD4664B6E3E042D0C20F91" legis-path="620.(e)">subsection (e)</internal-xref> and subject to
+				<internal-xref idref="HF5627630A72D42DC9007E4A699E01A57" legis-path="620.(c)(3)(D)">subsection (c)(3)(D)</internal-xref>, if the
+				Secretary determines that a recall of a cosmetic subject to an order under
+				<internal-xref idref="H35D9C4EB27DF4F879A64BCF8BAB92985" legis-path="620.(c)">subsection (c)</internal-xref> is appropriate, the
+				Secretary shall amend the order to require a recall.</text>
+									</paragraph><paragraph commented="no" id="HB5C0AD96811143178E00865433B543F5"><enum>(2)</enum><header>Contents</header><text>An
+				amended order under
+				<internal-xref idref="H7CC76EFF87424C5BBB004D03B8F7B087" legis-path="620.(d)(1)">paragraph (1)</internal-xref> shall—</text>
+										<subparagraph commented="no" id="H2F4D41F44A98421987FC78F14E80A95F"><enum>(A)</enum><text>specify a
+				timetable in which the recall will occur;</text>
+										</subparagraph><subparagraph commented="no" id="HF993D25101BC41D1A8906017FD71C0F1"><enum>(B)</enum><text>require periodic
+				reports to the Secretary describing the progress of the recall; and</text>
+										</subparagraph><subparagraph commented="no" id="H1525301301BC4FA3B8DE6740AA4490EB"><enum>(C)</enum><text>provide for
+				notice, including to individuals as appropriate, to persons who may be affected
+				by the recall.</text>
+										</subparagraph><continuation-text commented="no" continuation-text-level="paragraph">In providing for such notice, the
+				Secretary may allow for the assistance of health professionals, State or local
+				officials, or other individuals designated by the Secretary.</continuation-text></paragraph><paragraph commented="no" id="H7B19919FB50640AFAA11D614C3E49F65"><enum>(3)</enum><header>Nondelegation</header><text display-inline="yes-display-inline">An amended order under this subsection may
+				only be issued by the Secretary or an official designated by the Secretary, and
+				may not be delegated to another official or employee.</text>
+									</paragraph><paragraph commented="no" id="HFFCA81BE13404F98B6C70FB7F21AA01F"><enum>(4)</enum><header>Determination</header><text>If
+				the Secretary determines that inadequate grounds exist to support the amendment
+				made to the order under
+				<internal-xref idref="H7CC76EFF87424C5BBB004D03B8F7B087" legis-path="620.(d)(1)">paragraph (1)</internal-xref>, the Secretary shall
+				remove such amendment from such order.</text>
+									</paragraph></subsection><subsection commented="no" id="H96E15102AABD4664B6E3E042D0C20F91"><enum>(e)</enum><header>Emergency recall
+				order</header>
+									<paragraph commented="no" id="H6596821445FE476CB7115F289AB54A3D"><enum>(1)</enum><header>In
+				general</header><text display-inline="yes-display-inline">If the Secretary has
+				credible evidence or information that a cosmetic subject to an order under
+				<internal-xref idref="H35D9C4EB27DF4F879A64BCF8BAB92985" legis-path="620.(c)">subsection (c)</internal-xref> presents an imminent threat
+				of serious adverse event, the Secretary may issue an order requiring any person
+				who distributes such cosmetic—</text>
+										<subparagraph commented="no" id="HCDD16303A944408F91D146DD134D7DBB"><enum>(A)</enum><text>to immediately
+				recall such cosmetic; and</text>
+										</subparagraph><subparagraph commented="no" id="H885C83FC555D49F6BCF8CC2AE1979221"><enum>(B)</enum><text>to provide for
+				notice, including to individuals as appropriate, to persons who may be affected
+				by the recall.</text>
+										</subparagraph></paragraph><paragraph id="H31FBB6D4D00745AB97F779D58B770697"><enum>(2)</enum><header>Recall and
+				notice</header><text>Any person who is subject to an emergency recall order
+				under this subsection shall immediately recall such cosmetic and provide
+				notification as required by such order.</text>
+									</paragraph><paragraph id="H47739564FA294574B0649E008034409A"><enum>(3)</enum><header>Appeal</header>
+										<subparagraph id="HD835B64C979E451C9D077E4E1F4D3E0E"><enum>(A)</enum><header><enum-in-header>24</enum-in-header>
+				hours</header><text>Any person subject to such an order may appeal such order
+				to the Secretary within 24 hours of the issuance of such order.</text>
+										</subparagraph><subparagraph display-inline="no-display-inline" id="HFA653721D05E4063A8D70A3C448EEA20"><enum>(B)</enum><header>Contents of
+				appeal</header><text>Such appeal may include a request for an informal hearing
+				and a description of any efforts to recall such cosmetic undertaken voluntarily
+				by the person, including after a request under
+				<internal-xref idref="H0292D14009E04BF58CA656592E61EE00" legis-path="620.(b)">subsection (b)</internal-xref>.</text>
+										</subparagraph><subparagraph commented="no" id="H813EA3B3C7434F13B5AEA90A29A2BCC3"><enum>(C)</enum><header>Informal
+				hearing</header><text>An informal hearing shall be held as soon as practicable
+				after the appeal is filed under
+				<internal-xref idref="HD835B64C979E451C9D077E4E1F4D3E0E" legis-path="620.(e)(3)(A)">subparagraph (A)</internal-xref>, but not later than
+				5 calendar days after such an appeal is filed, or fewer days (as determined by
+				the Secretary), unless the parties jointly agree to an extension.</text>
+										</subparagraph></paragraph><paragraph id="HC3017FF5D737416C9B10D51C1728F873"><enum>(4)</enum><header>Vacation of
+				order</header><text>If the Secretary determines that inadequate grounds exist
+				to support the actions required by the order under
+				<internal-xref idref="H6596821445FE476CB7115F289AB54A3D" legis-path="620.(e)(1)">paragraph (1)</internal-xref>, the Secretary shall
+				vacate the order.</text>
+									</paragraph><paragraph commented="no" id="HAC0BFD0E867E459998D975486A9760B4"><enum>(5)</enum><header>Nondelegation</header><text display-inline="yes-display-inline">An order under this subsection may only be
+				issued by the Secretary or an official designated by the Secretary, and may not
+				be delegated to another official or employee.</text>
+									</paragraph></subsection><subsection commented="no" id="HE6692A14EA3148EB800BF6331CAA7BE2"><enum>(f)</enum><header>Notice to
+				consumers and health officials</header><text>The Secretary shall, as the
+				Secretary determines to be necessary, provide notice of a recall order under
+				this section to consumers to whom the cosmetic was, or may have been,
+				distributed and to appropriate State and local health officials.</text>
+								</subsection><subsection id="H3784FEC604084A2FADD03B2DB8FC5743"><enum>(g)</enum><header>Supply chain
+				information</header>
+									<paragraph id="H507BF78B43E440FDBFFA37C537B351F4"><enum>(1)</enum><header>In
+				general</header><text display-inline="yes-display-inline">In the case of a
+				cosmetic that the Secretary has reason to believe is adulterated, misbranded,
+				or otherwise in violation of this Act, the Secretary shall request that the
+				brand owner named on the label of such cosmetic (as required under section
+				602(b)(1)) submit all of the following information:</text>
+										<subparagraph id="HF8BF3F70629F495A8324DA84704A2E93"><enum>(A)</enum><text>The name and place
+				of business of the manufacturer, packager, supplier, or distributor from which
+				such entity received the cosmetic or ingredients for manufacturing such
+				cosmetic.</text>
+										</subparagraph><subparagraph id="H19F373FBE5D24756923DC0CFD5A5D85D"><enum>(B)</enum><text>The name and place
+				of business of any entity (including any retailer) that was provided with such
+				cosmetic by the entity named on the label.</text>
+										</subparagraph></paragraph><paragraph id="HD494D7694DA94CA6B856E0C0ABAED373"><enum>(2)</enum><header>Collection of
+				additional supply chain information</header><text display-inline="yes-display-inline">In the case of a cosmetic that the
+				Secretary has reason to believe is adulterated, misbranded, or otherwise in
+				violation of this Act, to the extent necessary to protect the safety of the
+				public, the Secretary may request that any entity (including a supplier of an
+				ingredient, manufacturer, packer, distributor, or retailer) in the supply chain
+				of such cosmetic submit to the Secretary information that is similar to the
+				information described under subparagraphs (A) and (B) of paragraph (1).</text>
+									</paragraph><paragraph id="H89834135614149BFB3BD22BE8B2A27FC"><enum>(3)</enum><header>Maintenance of
+				records</header><text display-inline="yes-display-inline">Any entity in supply
+				chain of a cosmetic (including the brand owner named on the label of a
+				cosmetic) shall—</text>
+										<subparagraph id="HBC172400DD014778A8D00411068F0875"><enum>(A)</enum><text>maintain records
+				sufficient to provide the information described in subparagraphs (A) and (B) of
+				<internal-xref idref="H507BF78B43E440FDBFFA37C537B351F4" legis-path="620.(b)(1)">paragraph (1)</internal-xref>; and</text>
+										</subparagraph><subparagraph id="HB7C602464E474043865F4B1493B7E533"><enum>(B)</enum><text display-inline="yes-display-inline">provide such information to the Secretary
+				upon the request of the Secretary.</text>
+										</subparagraph></paragraph></subsection><subsection commented="no" id="HC0F6D1E6A8E140EFBBF51AAFF571A538"><enum>(h)</enum><header>Savings
+				clause</header><text>Nothing contained in this section shall be construed as
+				limiting the authority of the Secretary to issue an order to cease distribution
+				of, or to recall, a cosmetic under any other provision of this Act.</text>
+								</subsection></section><section id="H20EB8B9B06AA44ADA5D0BDD2D9FB9056"><enum>621.</enum><header>Petitions</header>
+								<subsection id="H550E26EADAAB491FB6A634FFD40A8FD9"><enum>(a)</enum><header>In
+				general</header><text display-inline="yes-display-inline">The Secretary shall
+				complete and publish a review, and, if appropriate, immediately revise related,
+				relevant information, including ingredient lists, ingredient restrictions or
+				prohibitions, or ingredient or cosmetic safety determinations, not later than 6
+				months after the date on which the Secretary receives from any individual or
+				entity a reasonable petition—</text>
+									<paragraph id="H91CEAD76CCF04B2294978DA81FF47A18"><enum>(1)</enum><text display-inline="yes-display-inline">to prohibit or restrict an ingredient for
+				use in cosmetics and list such ingredient on the list under
+				<internal-xref idref="H8125B901E79B4938A261F591A98CCE90" legis-path="616.(b)">section 616(b)</internal-xref>;</text>
+									</paragraph><paragraph id="H7BEE83C6CE314F85A4CB1AC8C30D7D41"><enum>(2)</enum><text display-inline="yes-display-inline">to remove an ingredient from the list of
+				ingredients that are safe without limits under
+				<internal-xref idref="H018831D08D3345ED92028657B49472CD" legis-path="616.(c)">section 616(c)</internal-xref>;</text>
+									</paragraph><paragraph id="H08BE08B7DB63478986BF1B5158DB53E9"><enum>(3)</enum><text display-inline="yes-display-inline">to add an ingredient to the priority
+				assessment list under
+				<internal-xref idref="H0FD4483D587A42389461003C32019E62" legis-path="616.(d)">section 616(d)</internal-xref>; or</text>
+									</paragraph><paragraph id="HDDB72552778649169445EC4932313F25"><enum>(4)</enum><text display-inline="yes-display-inline">to add an ingredient to the list of
+				contaminants under
+				<internal-xref idref="HA37156E5EFEB4CB5B7A425ABDBA2FF75" legis-path="618.">section 618</internal-xref>.</text>
+									</paragraph></subsection><subsection id="H61A03502DEA14A948057DD6F0CDD9FFA"><enum>(b)</enum><header>Reasonable
+				petition</header><text display-inline="yes-display-inline">Not later than 1
+				year after the date of the enactment of this Act, the Secretary shall issue
+				rules specifying the criteria which the Secretary will use to determine if a
+				petition submitted under this section is a reasonable petition.</text>
+								</subsection></section><section id="H15E8F1C82CD94590910D68E2E00A2DB9"><enum>622.</enum><header>Mandatory
+				reporting of serious adverse events</header>
+								<subsection id="H36176D3E274E4518A5021CCE17BD7679"><enum>(a)</enum><header>Submission of
+				report on serious adverse events</header><text display-inline="yes-display-inline">The Secretary shall require that the brand
+				owner of a cosmetic whose name appears on the label of a cosmetic marketed in
+				the United States submit to the Secretary a report containing information
+				received concerning any serious adverse event associated with the use of the
+				cosmetic.</text>
+								</subsection><subsection id="H27FF328373DD44F6A589B50BDFA33AC0"><enum>(b)</enum><header>Timing of
+				report</header><text display-inline="yes-display-inline">A report under
+				<internal-xref idref="H36176D3E274E4518A5021CCE17BD7679" legis-path="622.(a)">subsection (a)</internal-xref> shall be submitted to the
+				Secretary not later than 15 business days after information concerning the
+				serious adverse event is received at the place of business of the brand
+				owner.</text>
+								</subsection><subsection id="HA554A15F72AE4BB19D302F201C944F25"><enum>(c)</enum><header>Content of
+				report</header><text display-inline="yes-display-inline">A report under
+				<internal-xref idref="H36176D3E274E4518A5021CCE17BD7679" legis-path="622.(a)">subsection (a)</internal-xref> shall include the following
+				information, to the extent to which the brand owner submitting the report has
+				been able to verify the information:</text>
+									<paragraph id="H4FD3AFAA65DB4DFCBBC9B2644D1F3CEB"><enum>(1)</enum><text>The identity of
+				the individual experiencing the adverse health event.</text>
+									</paragraph><paragraph id="H30CA30BBC53848379471FC0775F2A57E"><enum>(2)</enum><text>An identifiable
+				report of such effect.</text>
+									</paragraph><paragraph id="H6F40FA9E476E467BBEFC2ED8BA21C6C0"><enum>(3)</enum><text>The name of the
+				cosmetic suspected of causing such effect.</text>
+									</paragraph><paragraph id="H3284888A94D1498B92D9D62920BB1D4B"><enum>(4)</enum><text>A description of
+				the adverse health event.</text>
+									</paragraph></subsection><subsection id="H0AE8D2F996294C5998EBD12D3E6B2039"><enum>(d)</enum><header>Public
+				availability and privacy</header>
+									<paragraph id="HCCBB553024904AA0872C7FE79FBB6A14"><enum>(1)</enum><header>Public
+				availability</header><text display-inline="yes-display-inline">Subject to
+				<internal-xref idref="HF7BF477F837B45D8B7680688A0330C29" legis-path="622.(d)(2)">paragraph (2)</internal-xref>, the serious adverse
+				event reports collected by the Secretary under this section shall be submitted
+				electronically and shall be made accessible to the public.</text>
+									</paragraph><paragraph id="HF7BF477F837B45D8B7680688A0330C29"><enum>(2)</enum><header>Privacy</header>
+										<subparagraph id="HB2ACC77D10614AE98A70D3011A42C853"><enum>(A)</enum><header>Personally
+				identifiable information</header><text display-inline="yes-display-inline">Notwithstanding any other provision of law,
+				personally identifiable information in serious adverse event reports provided
+				to the Secretary under this section, shall not—</text>
+											<clause id="H1D029CDA3ADF4C3F971F5AEB6C1BF7C6"><enum>(i)</enum><text>be
+				made publicly available pursuant to any State or other law requiring disclosure
+				of information or records; or</text>
+											</clause><clause id="H4CE017B3E0EF43CBBC04CAACD7BFF8E0"><enum>(ii)</enum><text>otherwise be
+				disclosed or distributed to any party without the written consent of the
+				Secretary and the person submitting such information to the Secretary.</text>
+											</clause></subparagraph><subparagraph id="HB95B598ACE8946A68F61830DEFEF9FFB"><enum>(B)</enum><header>Treatment of
+				information under Privacy Act and FOIA</header><text display-inline="yes-display-inline">A report submitted to the Secretary under
+				this section, shall be considered to be a record about an individual under
+				<external-xref legal-doc="usc" parsable-cite="usc/5/552a">section 552a</external-xref> of title 5, United States Code (commonly referred to as the
+				‘‘Privacy Act of 1974’’) and a medical or similar file the disclosure of which
+				would constitute a violation of section 552 of such title 5 (commonly referred
+				to as the ‘‘Freedom of Information Act’’), and shall not be publicly disclosed
+				unless all personally identifiable information is redacted.</text>
+										</subparagraph></paragraph></subsection></section><section id="H391DD2B4AB3E4EE98375D373D0A9F478"><enum>623.</enum><header>Nonconfidential
+				information</header>
+								<subsection id="H685C348D9FA346CBA2204DD99701CBD2"><enum>(a)</enum><header>Information
+				available to public</header><text display-inline="yes-display-inline">Subject
+				to
+				<internal-xref idref="HE3DFA13842EE4A7DBF01AB286614D382" legis-path="623.(c)">subsection (c)</internal-xref> and
+				<internal-xref idref="HF7BF477F837B45D8B7680688A0330C29" legis-path="622.(d)(2)">section 622(d)(2)</internal-xref>, all nonconfidential
+				information submitted pursuant to this subchapter shall be made available to
+				the public, including the following types of information:</text>
+									<paragraph id="H5E38103F23694F7B94F1819A99054E9E"><enum>(1)</enum><text>The name,
+				identity, and structure of a chemical substance, contaminant, or impurity that
+				is an ingredient.</text>
+									</paragraph><paragraph id="HE3C4FFDC85E645D48BC3E9022C39CEC6"><enum>(2)</enum><text>All information
+				concerning function, exposure, toxicity data, health hazards, and environmental
+				hazards for a cosmetic.</text>
+									</paragraph><paragraph id="H76169F434BAB45C986F75C0F046F185E"><enum>(3)</enum><text>The functions of
+				ingredients in cosmetics.</text>
+									</paragraph><paragraph id="H9818C48166C34520901084FE97278009"><enum>(4)</enum><text>Fragrance, flavor,
+				and colorants in a cosmetic.</text>
+									</paragraph></subsection><subsection id="HA6EEADF623174621A6042FF7A8C4F0FE"><enum>(b)</enum><header>Confidential
+				information</header><text>The concentration of cosmetic ingredients used in a
+				finished cosmetic shall be considered confidential business information and may
+				not be made available to the public under
+				<internal-xref idref="H685C348D9FA346CBA2204DD99701CBD2" legis-path="623.(a)">subsection (a)</internal-xref>.</text>
+								</subsection><subsection id="HE3DFA13842EE4A7DBF01AB286614D382"><enum>(c)</enum><header>Petition for
+				information To remain confidential</header>
+									<paragraph id="H42281D70225C4811909CA195C584E7D2"><enum>(1)</enum><header>In
+				general</header><text>The Secretary shall create a process for an entity to
+				petition for nonconfidential information described in
+				<internal-xref idref="H685C348D9FA346CBA2204DD99701CBD2" legis-path="623.(a)">subsection (a)</internal-xref> to remain confidential if
+				the entity shows that there would be a serious negative impact to the entity’s
+				commercial interests if such information were disclosed to the public.</text>
+									</paragraph><paragraph commented="no" id="HECF93B46CCB34A2D9D7A64357A85F1B5"><enum>(2)</enum><header>Limitation</header><text>The
+				Secretary may not approve a petition under
+				<internal-xref idref="H42281D70225C4811909CA195C584E7D2" legis-path="623.(c)(1)">paragraph (1)</internal-xref> to the extent that such
+				petition would prevent the public disclosure of—</text>
+										<subparagraph commented="no" id="HB15BD4656C104D578617FE3C7971EBE7"><enum>(A)</enum><text display-inline="yes-display-inline">the name, identity, and structure of any
+				chemical substance, contaminant, or impurity that is an ingredient;</text>
+										</subparagraph><subparagraph commented="no" id="H3791A9ACEE664D3DBB8A6594754ABD91"><enum>(B)</enum><text>all health and
+				safety data related to that substance, contaminant, or impurity; or</text>
+										</subparagraph><subparagraph commented="no" id="H696912E55968408284DFB9FADA1A5934"><enum>(C)</enum><text display-inline="yes-display-inline">any data used to substantiate the safety of
+				that substance, contaminant, or impurity.</text>
+										</subparagraph></paragraph></subsection></section><section commented="no" id="H24A1ECF7CAEF4870B2C563B04734B6F8"><enum>624.</enum><header>Animal testing
+				alternatives</header>
+								<subsection commented="no" id="H7512319FB3D549EBA431FE464975F09C"><enum>(a)</enum><header>In
+				general</header><text display-inline="yes-display-inline">To minimize the use
+				of animal testing of ingredients and cosmetics, the Secretary shall—</text>
+									<paragraph commented="no" id="H7618D502B6074FFB9DB71FE2647124D6"><enum>(1)</enum><text>require, where
+				practicable, alternative testing methods that—</text>
+										<subparagraph commented="no" id="H6A81FBF43E7E4D88961098B754920B14"><enum>(A)</enum><text>do not involve the
+				use of an animal to test the chemical substance;</text>
+										</subparagraph><subparagraph commented="no" id="H9D581D3931004EDDBFD30080AC54AF21"><enum>(B)</enum><text>provide
+				information that is equivalent or superior in scientific quality to the animal
+				testing method; and</text>
+										</subparagraph><subparagraph commented="no" id="H0D4AC0685F7C4623A8A1EE7BE4B29A99"><enum>(C)</enum><text>use fewer animals
+				than conventional animal-based tests when nonanimal methods are impracticable,
+				including the use of tests that combine multiple endpoints; and</text>
+										</subparagraph></paragraph><paragraph commented="no" id="H200D7EC3941A496EAF4FB93BAE19C909"><enum>(2)</enum><text>encourage, where
+				practicable—</text>
+										<subparagraph commented="no" id="H57FFD450BC964654B4C2FE496FFE0F9D"><enum>(A)</enum><text>estimation of
+				toxicological properties of a chemical through the use of testing information
+				for one or more structurally similar chemicals where such estimates provide
+				information of sufficient scientific quality;</text>
+										</subparagraph><subparagraph commented="no" id="H91A27D235AA94260B6939B3001E546A0"><enum>(B)</enum><text>the formation of
+				industry consortia to conduct testing to avoid duplication of tests; and</text>
+										</subparagraph><subparagraph commented="no" id="HC5E9748C5DFA4A6A890AAB3ECFE813A4"><enum>(C)</enum><text>funding for
+				research and validation of alternative test methods, in accordance with this
+				subsection.</text>
+										</subparagraph></paragraph></subsection><subsection commented="no" id="H046CBAE74AB648CEBFE714C35974CD90"><enum>(b)</enum><header>List of
+				alternative testing methods</header><text>Not later than 1 year after the date
+				of the enactment of this subchapter, and triennially thereafter, the Secretary
+				shall publish a list of the alternative testing methods described in
+				<internal-xref idref="H7512319FB3D549EBA431FE464975F09C" legis-path="624.(a)">subsection (a)</internal-xref>.</text>
+								</subsection></section><section id="H087F967533384431A1AB4A2AC52D3167"><enum>625.</enum><header>Product Testing
+				and Review Audit</header><text display-inline="no-display-inline">The Secretary
+				shall conduct annual audits of random samples of cosmetics to assess or test
+				for acute negative reactions, pathogen hazards, contaminants, leaching of
+				packaging additives, mislabeling, or other relevant issues of concern (as
+				determined by the Secretary).</text>
+							</section><section id="H91947C50C03D4B6992F3EF59EBFEF0B0"><enum>626.</enum><header>Resources for
+				small businesses</header><text display-inline="no-display-inline">The Secretary
+				shall provide technical support to assist small businesses in carrying out the
+				requirements of this subchapter.</text>
+							</section><section commented="no" id="H27DB13F3166745A6BF1A9D7EEFA4DAB3"><enum>627.</enum><header>Interagency
+				cooperation</header>
+								<subsection id="HD9CB8535B69D41B2AA4D4A780F50F6AB"><enum>(a)</enum><header>Interagency
+				Council on Cosmetic Safety</header><text display-inline="yes-display-inline">There is established an Interagency Council
+				on Cosmetic Safety for the purpose of sharing data and promoting collaboration
+				on cosmetic safety between the Food and Drug Administration, the National
+				Institute of Environmental Health Sciences, the Centers for Disease Control and
+				Prevention, the Occupational Safety and Health Administration, and the
+				Environmental Protection Agency.</text>
+								</subsection><subsection commented="no" display-inline="no-display-inline" id="HAB546EE26B5B4CF280C085968998A3C5"><enum>(b)</enum><header>Use of data from
+				Federal sources</header><text display-inline="yes-display-inline">For purposes
+				of this subchapter, the Secretary, as appropriate, shall request and utilize
+				ingredient and cosmetic toxicity, use, and exposure data from other Federal
+				agencies.</text>
+								</subsection></section><section id="H60C402C7F8F9474FA42CA53AC4109E79"><enum>628.</enum><header>Savings
+				clause</header><text display-inline="no-display-inline">Nothing in this Act
+				affects the right of a State or a political subdivision of a State to adopt or
+				enforce any regulation, requirement, or standard of performance that is
+				different from, or in addition to, a regulation, requirement, liability, or
+				standard for performance established pursuant to this Act unless compliance
+				with both this Act and the State or political subdivision of a State
+				regulation, requirement, or standard of performance is impossible, in which
+				case the applicable provisions of this Act shall control.</text>
+							</section><section commented="no" id="H495AE2E88AF44295B45DB60E1DDA66D6"><enum>629.</enum><header>Authorization
+				of appropriations</header><text display-inline="no-display-inline">There are
+				authorized to be appropriated such sums as may be necessary to carry out this
+				subchapter for each of the fiscal years 2014 through
+				2018.</text>
+							</section></subchapter><after-quoted-block>.</after-quoted-block></quoted-block>
+				</paragraph></subsection><subsection id="H4B12CA8145454F258215F8F9DABADBA7"><enum>(b)</enum><header>Adulterated and
+			 misbranded cosmetics</header>
+				<paragraph id="HDC6527D5C2154E88921EA1701FC74640"><enum>(1)</enum><header>Adulterated
+			 cosmetics</header><text>Section 601 of the Federal Food, Drug, and Cosmetic Act
+			 (<external-xref legal-doc="usc" parsable-cite="usc/21/361">21 U.S.C. 361</external-xref>) is amended in paragraph (a)—</text>
+					<subparagraph id="H7D88C585F48041F7AE14105EB7466426"><enum>(A)</enum><text>by striking
+			 <quote>, except that this provision shall not apply to coal-tar hair
+			 dye</quote> and all that follows through <quote>or eyebrow dyes</quote>;
+			 and</text>
+					</subparagraph><subparagraph id="HFE9CF5686F324BE0A1B7FAF75FE81765"><enum>(B)</enum><text>by adding at the
+			 end the following:</text>
+						<quoted-block display-inline="no-display-inline" id="HC5D4F1C80E574510AA33B76FB42F36E6" style="OLC">
+							<subsection id="H76A0E53CB27C49AD8B0CE9ECD2A324F8" indent="down1"><enum>(f)</enum><text display-inline="yes-display-inline">If
+				it is manufactured in a manner that fails to comply with section 617(a).</text>
+							</subsection><subsection id="HE590C4B2EADD4CA6980D9F858872A904" indent="down1"><enum>(g)</enum><text display-inline="yes-display-inline">If
+				it is imported, distributed, or marketed and—</text>
+								<paragraph id="H76C67C62BC5A4010A8330C49DF0F67B6"><enum>(1)</enum><text display-inline="yes-display-inline">it contains an ingredient on the list under
+				<internal-xref idref="HC05F22F0211E437CA847ED4D2FB949B2" legis-path="q:H164276F5A0514B84B51CC7376F12FE70:616.(b)(1)(A)">section
+				616(b)(1)(A)</internal-xref>, and the manufacturer has not complied with
+				section 616(b)(4) with respect to such ingredient and such cosmetic; or</text>
+								</paragraph><paragraph id="H0F4A648E96F34718A6BFB321B244EDF7"><enum>(2)</enum><text display-inline="yes-display-inline">it contains an ingredient on the list under
+				<internal-xref idref="HABF99BE21D4745D08C40B6A7FBCDBC0D" legis-path="q:H164276F5A0514B84B51CC7376F12FE70:616.(b)(1)(B)">section
+				616(b)(1)(B)</internal-xref>, such ingredient is being used in a manner that
+				violates the limit on use or concentration of such ingredient under
+				<internal-xref idref="HC3DA6D9CAEF846B3A0A517CB24AE73D4" legis-path="q:H164276F5A0514B84B51CC7376F12FE70:616.(b)(2)">section
+				616(b)(2)</internal-xref>, and the manufacturer has not complied with section
+				616(b)(4) with respect to such ingredient and such cosmetic.</text>
+								</paragraph></subsection><subsection id="H85BCEA9860F24A47BCCD5D0B1E56A442" indent="down1"><enum>(h)</enum><text>If it is marketed by a brand owner
+				that, with respect to such cosmetic, is required to demonstrate, under section
+				617(b)(2), that the cosmetic meets the safety standard and the brand owner has
+				not yet submitted the required data under section
+				617(b)(3).</text>
+							</subsection><after-quoted-block>.</after-quoted-block></quoted-block>
+					</subparagraph></paragraph><paragraph id="H962E7576707948AB9E7A546FBD20AB98"><enum>(2)</enum><header>Misbranded
+			 cosmetics</header><text>Section 602 of the Federal Food, Drug, and Cosmetic Act
+			 (<external-xref legal-doc="usc" parsable-cite="usc/21/362">21 U.S.C. 362</external-xref>) is amended—</text>
+					<subparagraph id="H9C5056405DF7421081EED90F1146DAFA"><enum>(A)</enum><text>in paragraph (a),
+			 by inserting <quote>or fails to meet the requirements of section 613 or
+			 618(b)</quote> before the period; and</text>
+					</subparagraph><subparagraph id="HB7AD3AAF473E47AA9ED4B62384D707AD"><enum>(B)</enum><text>by adding at the
+			 end the following:</text>
+						<quoted-block display-inline="no-display-inline" id="HEC58DDAB286B49BAB8467BA72ECC6CFD" style="OLC">
+							<subsection id="H4D7A1A752D7C4F19AE190555D0C2F611" indent="down1"><enum>(g)</enum><text>If it—</text>
+								<paragraph id="H274AE119BD7E4723829964046EC1F404"><enum>(1)</enum><text>was brought to market by a brand
+				owner that failed to register and pay the applicable fee as required under
+				section 612;</text>
+								</paragraph><paragraph id="HE0597127074541DEB0EF0C79711E4CAC"><enum>(2)</enum><text>is brought to market, manufactured,
+				packaged, distributed, or sold in retail by a brand owner, manufacturer,
+				packager, distributor, or retailer, respectively, who fails to notify the
+				Secretary as required under section 620(a)(1);</text>
+								</paragraph><paragraph id="H7B3E676109FD42CAA71FE73E4124D25D"><enum>(3)</enum><text>is distributed in violation of an
+				order under section 620(c);</text>
+								</paragraph><paragraph id="H590247AD437745F8A59448C66F0C6E4C"><enum>(4)</enum><text>is not recalled as required by an
+				order under subsection (d) or (e) of section 620;</text>
+								</paragraph><paragraph id="H18081961E49141B583547337034A3DBB"><enum>(5)</enum><text>is manufactured in a manner that
+				fails to comply with good manufacturing practices prescribed by the Secretary
+				under section 614(b); or</text>
+								</paragraph><paragraph id="H2E73A4AA8D184BA1829669C9E5FAD6C2"><enum>(6)</enum><text display-inline="yes-display-inline">is brought to market by a brand owner who
+				fails—</text>
+									<subparagraph id="H1646D3A33A6B4D44B9974E6487C616F4"><enum>(A)</enum><text>to submit the statement required under
+				section 619; or</text>
+									</subparagraph><subparagraph id="H4CE0A2449994486DADC1858B785CE5E8"><enum>(B)</enum><text>notify the Secretary of changes to
+				information contained in such report, as required by such
+				section.</text>
+									</subparagraph></paragraph></subsection><after-quoted-block>.</after-quoted-block></quoted-block>
+					</subparagraph></paragraph><paragraph id="H5E488557B1A84AFFA0039F0DA31BF0FD"><enum>(3)</enum><header>Additional
+			 prohibitions</header><text display-inline="yes-display-inline">Section 301 of
+			 the Federal Food, Drug, and Cosmetic Act (<external-xref legal-doc="usc" parsable-cite="usc/21/331">21 U.S.C. 331</external-xref>) is amended—</text>
+					<subparagraph id="H5FEFBC8019B449B0961A50DA84E22ED9"><enum>(A)</enum><text>in paragraph (e),
+			 by inserting <quote>612,</quote> after <quote>564,</quote> each place it
+			 appears; and</text>
+					</subparagraph><subparagraph id="H24B944EE5763436C9C63B130DA8D7553"><enum>(B)</enum><text>by adding at the
+			 end the following:</text>
+						<quoted-block display-inline="no-display-inline" id="HAC2F6E6D9C994FD58F0DFA66ACECC0F1" style="OLC">
+							<subsection id="H9A54CD5FF3D9400792BC36EBE52ECD53" indent="down1"><enum>(ccc)</enum><text>The failure of a brand owner,
+				manufacturer, or supplier of a cosmetic or an ingredient for use in a cosmetic
+				to submit and update data and information as required under section
+				615(a).</text>
+							</subsection><subsection id="HB67EFDA94CAF49CFB506FF9394BF77D2" indent="down1"><enum>(ddd)</enum><text display-inline="yes-display-inline">The manufacture, importation, distribution,
+				or marketing of an ingredient for use in a cosmetic that is on the list under
+				<internal-xref idref="HC05F22F0211E437CA847ED4D2FB949B2" legis-path="q:H164276F5A0514B84B51CC7376F12FE70:616.(b)(1)(A)">section
+				616(b)(1)(A)</internal-xref>.</text>
+							</subsection><subsection id="H037F50B30502436BB6AFDE95F59BB807" indent="down1"><enum>(eee)</enum><text display-inline="yes-display-inline">The failure of a supplier of an ingredient
+				for use in a cosmetic—</text>
+								<paragraph id="HD01A87D243F84F8A834C93C0B0B0A88C"><enum>(1)</enum><text>to provide data and information as
+				required by section 615(a)(4)(B); or</text>
+								</paragraph><paragraph id="H5D937DB290C641FBA1D35EEEDE3B8F00"><enum>(2)</enum><text>comply with the testing
+				requirements under section 618(c).</text>
+								</paragraph></subsection><subsection id="H2B6B2EC3DE3642A181CAE8537F2B9AD0" indent="down1"><enum>(fff)</enum><text>The failure of a manufacturer to
+				comply with the requirements of section 618(d).</text>
+							</subsection><subsection id="H1354BF9A94E942B09A67729D4ECB8D63" indent="down1"><enum>(ggg)</enum><text display-inline="yes-display-inline">The failure of a brand owner of a cosmetic
+				to comply with the requirement of reporting serious adverse events under
+				section
+				622.</text>
+							</subsection><after-quoted-block>.</after-quoted-block></quoted-block>
+					</subparagraph></paragraph></subsection></section><section id="HC4DFCD931BD44ED89FD1DFEE5B1CC4F0"><enum>3.</enum><header>Worker
+			 issues</header>
+			<subsection id="H4378E30EE17C4E7FA0889DE1284E0FAD"><enum>(a)</enum><header>In
+			 general</header><text display-inline="yes-display-inline">The Secretary of
+			 Labor shall promulgate an occupational safety and health standard under section
+			 6 of the Occupational Safety and Health Act of 1970 (<external-xref legal-doc="usc" parsable-cite="usc/29/655">29 U.S.C. 655</external-xref>) that
+			 requires the following:</text>
+				<paragraph id="HCDCF6529EAD94A7FBBFAFB58E16FF2B6"><enum>(1)</enum><header>Manufacturers
+			 and importers</header><text>Each manufacturer or importer selling any cosmetic
+			 for professional use shall—</text>
+					<subparagraph id="H6078912E6AB440B1BE70D7736B9A241F"><enum>(A)</enum><text display-inline="yes-display-inline">obtain or develop a material safety data
+			 sheet described in
+			 <internal-xref idref="HDD4D3078F3C94A12A2360412A09482DB" legis-path="3.(b)">subsection (b)</internal-xref> for each such cosmetic or
+			 personal care product that—</text>
+						<clause id="H3BF924169A944847B691C43D3D4647B4"><enum>(i)</enum><text display-inline="yes-display-inline">the manufacturer or importer produces or
+			 imports; and</text>
+						</clause><clause id="H21CAEFD3D83E4334B038AB6E90D2F2F3"><enum>(ii)</enum><text display-inline="yes-display-inline">includes a hazardous chemical, or a product
+			 ingredient associated with any chemical hazard, that is classified as a health
+			 hazard in accordance with the criteria found in section 1910.1200(d) of title
+			 29 of the Code of Federal Regulations, and any successor regulations;
+			 and</text>
+						</clause></subparagraph><subparagraph id="H6971D67476B24B3583D6CEF479705D8A"><enum>(B)</enum><text>make the material
+			 safety data sheet available to distributors and employers, including salon
+			 owners, in English and, upon request, in other languages, including Spanish and
+			 Vietnamese.</text>
+					</subparagraph></paragraph><paragraph id="H6323BFF5968D4C00AE0A26ECCBB47174"><enum>(2)</enum><header>Distributors</header><text>Each
+			 distributor of a cosmetic or personal care product for professional use shall
+			 distribute and provide material safety data sheets described in
+			 <internal-xref idref="HDD4D3078F3C94A12A2360412A09482DB" legis-path="3.(b)">subsection (b)</internal-xref> in the same manner as a
+			 distributor of a chemical hazard is required to distribute and provide material
+			 safety data sheets under <external-xref legal-doc="usc" parsable-cite="usc/29/1910">section 1910.1200(g)</external-xref> of title 29, Code of Federal
+			 Regulations, or any successor regulations.</text>
+				</paragraph><paragraph id="HDB5F822309204D988AC40C5279CDED89"><enum>(3)</enum><header>Employers</header><text>Each
+			 employer, including any operator of a salon, shall—</text>
+					<subparagraph id="H69833B82AF9B4CA4974ACC8E94D27ACB"><enum>(A)</enum><text>have a material
+			 safety data sheet in the workplace for each cosmetic or personal care product
+			 for professional use that is used in the course of the employer’s
+			 business;</text>
+					</subparagraph><subparagraph id="H57334D9534154500B5B9DEB587C1D4AA"><enum>(B)</enum><text display-inline="yes-display-inline">make such material safety data sheet
+			 available to all employees of the employer who are exposed or use the product
+			 to the same extent and in the same manner as material safety data sheets are
+			 required to be made available under <external-xref legal-doc="usc" parsable-cite="usc/29/1910">section 1910.1200(g)</external-xref> of title 29, Code of
+			 Federal Regulations, or any successor regulations; and</text>
+					</subparagraph><subparagraph id="H990086E7F1D24352B6A80ECC23B623DE"><enum>(C)</enum><text>upon request,
+			 provide employees with translations of such material safety data sheet in other
+			 languages, including Spanish and Vietnamese.</text>
+					</subparagraph></paragraph></subsection><subsection id="HDD4D3078F3C94A12A2360412A09482DB"><enum>(b)</enum><header>Contents of
+			 material safety data sheet</header><text display-inline="yes-display-inline">A
+			 material safety data sheet for a cosmetic or personal care product for
+			 professional use described in this section shall—</text>
+				<paragraph id="H4D0E7501F25C4C3D9CF65D4B2BB505B6"><enum>(1)</enum><text display-inline="yes-display-inline">contain the information required in a
+			 material safety data sheet under <external-xref legal-doc="usc" parsable-cite="usc/29/1910">section 1910.1200(g)</external-xref> of title 29, Code of
+			 Federal Regulations, or any successor regulations, for each hazardous chemical,
+			 or product ingredient associated with any chemical hazard, described in
+			 <internal-xref idref="H21CAEFD3D83E4334B038AB6E90D2F2F3" legis-path="3.(a)(1)(A)(ii)">subsection (a)(1)(A)(ii)</internal-xref>;
+			 and</text>
+				</paragraph><paragraph id="HE17C9B33231044FF99AC83371B601707"><enum>(2)</enum><text>include the
+			 following statement: <quote>This material safety data sheet is also available
+			 in multiple languages by contacting the manufacturer, using the contact
+			 information provided on this sheet.</quote>.</text>
+				</paragraph></subsection><subsection id="HB5A02545F7414FCBB44C03FC212E20B1"><enum>(c)</enum><header>Professional use
+			 defined</header><text>In this section, the term <term>professional use</term>
+			 has the meaning given such term in section 611(6) of the Federal Food, Drug,
+			 and Cosmetic Act, except to the extent that such term applies to a product that
+			 is sold as a retail product in any of the establishments listed under such
+			 definition.</text>
+			</subsection></section></legis-body>
+</bill>
+
+
