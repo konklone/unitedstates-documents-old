@@ -25,8 +25,8 @@ class Bills
 
   # Given a path to an XML file published by the House or Senate,
   # produce an HTML version of the document at the given output.
-  def self.process(infile, outfile, options = {})
-    doc = Nokogiri::XML open(infile)
+  def self.process(text, options = {})
+    doc = Nokogiri::XML text
 
     # let's start by just caring about the body of the bill - the legis-body
     body = doc.at "legis-body"
@@ -63,11 +63,7 @@ class Bills
       end
     end
 
-    if outfile
-      File.open(outfile, "w") {|f| f.write body.to_html}
-    else
-      puts body.to_html
-    end
+    body.to_html
   end
 
 end
@@ -96,6 +92,7 @@ if $0 == __FILE__
   end
 
   outfile = options.delete :out
+  text = File.read infile
 
-  Bills.process infile, outfile, options
+  puts Bills.process text, options
 end
