@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="billres.xsl"?>
+<!DOCTYPE bill PUBLIC "-//US Congress//DTDs/bill v2.8 20020720//EN" "res.dtd">
+<resolution dms-id="HE255A40E1AFD4D529FB11080821AEEFB" key="H" public-private="public" resolution-stage="Introduced-in-House" resolution-type="house-resolution" star-print="no-star-print">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dublinCore>
+<dc:title>113 HRES 67 IH: Expressing the need to raise awareness and promote capacity building to strategically address the lionfish invasion in the Atlantic Ocean.</dc:title>
+<dc:publisher>U.S. House of Representatives</dc:publisher>
+<dc:date>2013-02-13</dc:date>
+<dc:format>text/xml</dc:format>
+<dc:language>EN</dc:language>
+<dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+</dublinCore>
+</metadata>
+<form>
+		<distribution-code display="yes">IV</distribution-code>
+		<congress display="yes">113th CONGRESS</congress>
+		<session display="yes">1st Session</session>
+		<legis-num>H. RES. 67</legis-num>
+		<current-chamber>IN THE HOUSE OF REPRESENTATIVES</current-chamber>
+		<action display="yes">
+			<action-date date="20130213">February 13, 2013</action-date>
+			<action-desc><sponsor name-id="C000380">Mrs. Christensen</sponsor>
+			 submitted the following resolution; which was referred to the
+			 <committee-name committee-id="HII00">Committee on Natural
+			 Resources</committee-name></action-desc>
+		</action>
+		<legis-type>RESOLUTION</legis-type>
+		<official-title display="yes">Expressing the need to raise awareness and
+		  promote capacity building to strategically address the lionfish invasion in the
+		  Atlantic Ocean.</official-title>
+	</form>
+	<preamble>
+		<whereas><text>Whereas two species of venomous lionfish, the red lionfish
+			 (Pterois volitans) and devil firefish (Pterois miles), were likely introduced
+			 into the Atlantic Ocean via the United States aquarium trade in the
+			 1980s;</text>
+		</whereas><whereas><text>Whereas lionfish are now established throughout the
+			 coastal southeastern United States, the Caribbean, and many regions of the Gulf
+			 of Mexico;</text>
+		</whereas><whereas><text>Whereas lionfish may live for decades in high densities
+			 and reproduce at an alarming rate by spawning over 2,000,000 eggs per year per
+			 female;</text>
+		</whereas><whereas><text>Whereas lionfish inhabit most coastal marine reef habitats
+			 up to 1,000 feet deep;</text>
+		</whereas><whereas><text>Whereas in the Atlantic Ocean, lionfish consume over 50
+			 species of fish, some of which are commercially, recreationally, and
+			 ecologically important;</text>
+		</whereas><whereas><text>Whereas lionfish may impact species of concern such as the
+			 Nassau grouper and Warsaw grouper, speckled hind, striped croaker, and key
+			 silverside;</text>
+		</whereas><whereas><text>Whereas the economic impacts of lionfish may include
+			 hindering stock rebuilding efforts for commercially and recreationally
+			 important species;</text>
+		</whereas><whereas><text>Whereas economic losses for fishermen from lionfish may
+			 include loss of fishing days when painful envenomation occurs and reduced
+			 catches of some commercial species;</text>
+		</whereas><whereas><text>Whereas predation on herbivores by lionfish can result in
+			 cascading impacts such as increased macroalgae and decreased coral biomass
+			 which would threaten ecosystem integrity and ecosystem services provided by
+			 coral reef ecosystems;</text>
+		</whereas><whereas><text>Whereas lionfish may impact Atlantic Ocean biodiversity by
+			 consuming fish species critical to maintaining healthy and viable coral reef
+			 and hard-bottom ecosystems;</text>
+		</whereas><whereas><text>Whereas interactions with other reef stressors such as
+			 ocean acidification, warming temperatures, and other factors could exacerbate
+			 lionfish impacts;</text>
+		</whereas><whereas><text>Whereas the destruction of coral reefs and increased human
+			 health hazards from lionfish may have devastating impacts on the tourism
+			 industry, which is critical to the economies of coastal communities;</text>
+		</whereas><whereas><text>Whereas current technology suggests lionfish eradication
+			 at the regional scale is likely not feasible given the expansive depths and
+			 geography of lionfish habitat;</text>
+		</whereas><whereas><text>Whereas control plans that support sustained removals of
+			 lionfish can significantly reduce local lionfish densities; and</text>
+		</whereas><whereas><text>Whereas tools for local lionfish control in some
+			 communities may include commercial harvesting as a food fish, harvesting
+			 juveniles for the aquarium trade, sport tournaments, and citizen-based removal
+			 programs: Now, therefore, be it</text>
+		</whereas></preamble>
+	<resolution-body id="H48BFB022FE354FA7BCDD0DBA145E20F7" style="traditional">
+		<section display-inline="yes-display-inline" id="HE6E2EEE618904C048C1C63C73187E2BC" section-type="undesignated-section"><enum></enum><text>That the House of
+			 Representatives—</text>
+			<paragraph id="H4EB46C37F1B74ED1A4F00394F8D5DAD1"><enum>(1)</enum><text>urges development
+			 of a comprehensive, scientifically based, region-wide strategy to address the
+			 lionfish invasion in the Atlantic Ocean, that includes actions such as local
+			 management plans and international partnerships;</text>
+			</paragraph><paragraph id="HFED15FA69E124FDF9B3235BDE0D3AD57"><enum>(2)</enum><text>supports
+			 scientific research and capacity building to develop and implement responses to
+			 the lionfish invasion; and</text>
+			</paragraph><paragraph id="H200977B4A6894310AE685A9E654724F8"><enum>(3)</enum><text>encourages raising
+			 public awareness about the lionfish invasion across the United States and its
+			 territories, especially in coastal communities, through outreach and
+			 education.</text>
+			</paragraph></section></resolution-body>
+</resolution>
+
+
