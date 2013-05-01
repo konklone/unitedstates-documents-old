@@ -34,7 +34,6 @@ module UnitedStates
         doc = Nokogiri::XML text
 
         # let's start by just caring about the body of the bill - the legis-body
-        # body = doc.at("legis-body") || doc.at("resolution-body") || doc.at("engrossed-amendment-body") || doc.at("amendment-body")
         body = doc.root
         body.traverse do |node|
 
