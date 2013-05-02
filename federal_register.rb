@@ -68,8 +68,9 @@ module UnitedStates
         end
 
         # fix bad utf-8 bytes and return
-        body.to_html.
-          encode('UTF-8', 'binary', invalid: :replace, undef: :replace, replace: '')
+        html = body.to_html encoding: "UTF-8"
+        # html.encode!('UTF-8', 'binary', invalid: :replace, undef: :replace, replace: '')
+        html
       end
 
     end
@@ -100,7 +101,7 @@ if $0 == __FILE__
   end
 
   outfile = options.delete :out
-  text = File.open(infile, 'r:iso-8859-1:utf-8').read
+  text = File.open(infile, 'r:iso-8859-1').read
 
   puts UnitedStates::Documents::FederalRegister.process text, options
 end
