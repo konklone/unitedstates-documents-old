@@ -55,8 +55,8 @@ module UnitedStates
             # US Code
             # e.g. http://api.fdsys.gov/link?collection=uscode&title=5&year=mostrecent&section=601&type=usc&link-type=html
             elsif classes.value["usc"]
-              node.set_attribute 'data-title', link.scan(/[^\w]title=([\d\w]+)/)
-              node.set_attribute 'data-section', link.scan(/[^\w]section=([\d\w]+)/)
+              node.set_attribute 'data-title', link.scan(/[^\w]title=([\d\w]+)/).first.first
+              node.set_attribute 'data-section', link.scan(/[^\w]section=([\d\w]+)/).first.first
 
             # CFR
             # e.g. https://www.federalregister.gov/select-citation/2013/04/30/13-CFR-121.201
