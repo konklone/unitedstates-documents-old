@@ -44,28 +44,37 @@ module UnitedStates
 
           # detect (already-detected by FR.gov) citations, extract info from link
           # (leave original link intact)
-          if (node.name == "a") and (classes = node.attributes['class']) and (classes.value["external"])
-            link = node.attributes['href'].value
+          if (node.name == "a")
+            classes = node.attributes['class']
+            link = node.attributes['href'] ? node.attributes['href'].value : nil
 
-            # Public laws
-            # e.g. http://api.fdsys.gov/link?collection=plaw&congress=107&lawtype=public&lawnum=347&link-type=html
-            if classes.value["publ"]
-              node.set_attribute 'data-congress', link.scan(/[^\w]congress=(\d+)/).first.first
-              node.set_attribute 'data-number', link.scan(/[^\w]lawnum=(\d+)/).first.first
-
-            # US Code
-            # e.g. http://api.fdsys.gov/link?collection=uscode&title=5&year=mostrecent&section=601&type=usc&link-type=html
-            elsif classes.value["usc"]
-              node.set_attribute 'data-title', link.scan(/[^\w]title=([\d\w]+)/).first.first
-              node.set_attribute 'data-section', link.scan(/[^\w]section=([\d\w]+)/).first.first
-
-            # CFR
-            # e.g. https://www.federalregister.gov/select-citation/2013/04/30/13-CFR-121.201
-            elsif classes.value["cfr"]
-              part, section = link.scan(/\/([a-zA-Z0-9]+)\-CFR\-(.*?)$/).first
-              node.set_attribute 'data-part', part
-              node.set_attribute 'data-section', section
+            # fix relative links
+            if link and link.start_with?("/")
+              node.set_attribute "href", "https://www.federalregister.gov#{link}"
             end
+
+            if classes and classes.value["external"]
+              # Public laws
+              # e.g. http://api.fdsys.gov/link?collection=plaw&congress=107&lawtype=public&lawnum=347&link-type=html
+              if classes.value["publ"]
+                node.set_attribute 'data-congress', link.scan(/[^\w]congress=(\d+)/).first.first
+                node.set_attribute 'data-number', link.scan(/[^\w]lawnum=(\d+)/).first.first
+
+              # US Code
+              # e.g. http://api.fdsys.gov/link?collection=uscode&title=5&year=mostrecent&section=601&type=usc&link-type=html
+              elsif classes.value["usc"]
+                node.set_attribute 'data-title', link.scan(/[^\w]title=([\d\w]+)/).first.first
+                node.set_attribute 'data-section', link.scan(/[^\w]section=([\d\w]+)/).first.first
+
+              # CFR
+              # e.g. https://www.federalregister.gov/select-citation/2013/04/30/13-CFR-121.201
+              elsif classes.value["cfr"]
+                part, section = link.scan(/\/([a-zA-Z0-9]+)\-CFR\-(.*?)$/).first
+                node.set_attribute 'data-part', part
+                node.set_attribute 'data-section', section
+              end
+            end
+
           end
         end
 
