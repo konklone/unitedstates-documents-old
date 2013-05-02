@@ -17,7 +17,8 @@ module UnitedStates
 
         doc = Nokogiri::HTML text
 
-        # only get the <body> tag, change to a div
+        # nokogiri generates a body tag - by changing it, we can use it as a container,
+        # and also suppress the html tag from being output (for some reason)
         body = doc.at("body")
         body.name = "div"
         body.set_attribute 'class', options[:class]
