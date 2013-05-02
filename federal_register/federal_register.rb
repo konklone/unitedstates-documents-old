@@ -19,7 +19,8 @@ module UnitedStates
 
         # nokogiri generates a body tag - by changing it, we can use it as a container,
         # and also suppress the html tag from being output (for some reason)
-        body = doc.at("body")
+        return "" unless body = doc.at("body")
+
         body.name = "div"
         body.set_attribute 'class', options[:class]
 
@@ -68,10 +69,8 @@ module UnitedStates
           end
         end
 
-        # fix bad utf-8 bytes and return
-        html = body.to_html encoding: "UTF-8"
-        # html.encode!('UTF-8', 'binary', invalid: :replace, undef: :replace, replace: '')
-        html
+        # frustrating to return it in ASCII, but this preserves html entities
+        body.to_html encoding: "US-ASCII"
       end
 
     end
@@ -102,7 +101,13 @@ if $0 == __FILE__
   end
 
   outfile = options.delete :out
-  text = File.open(infile, 'r:iso-8859-1').read
+  text = File.open(infile, 'r').read
 
-  puts UnitedStates::Documents::FederalRegister.process text, options
+  output = UnitedStates::Documents::FederalRegister.process text, options
+  if outfile
+    File.open(outfile, "w") {|f| f.write output}
+    puts "Written to #{outfile}."
+  else
+    puts output
+  end
 end
