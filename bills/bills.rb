@@ -79,6 +79,7 @@ module UnitedStates
   end
 end
 
+# boilerplate to accept a CLI interface
 if $0 == __FILE__
   options = {}
   
