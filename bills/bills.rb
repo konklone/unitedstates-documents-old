@@ -33,7 +33,6 @@ module UnitedStates
       def self.process(text, options = {})
         doc = Nokogiri::XML text
 
-        # let's start by just caring about the body of the bill - the legis-body
         body = doc.root
         body.traverse do |node|
 
