@@ -8,14 +8,44 @@ There are lots of different legal documents, and lots of websites and applicatio
 
 This repository is an attempt to capture efforts and experimentation to simplify this scene, and to link to other existing and useful efforts.
 
-### Ruby Gem
+### Document Processor
 
-This repository contains a `us-documents` gem that provides document processors for two kinds of legal documents:
+This repository contains a `us-documents` gem that provides command line and Ruby-based document processors for two kinds of legal documents:
 
 * XML for bills in Congress, as distributed by [GPO's FDSys](http://www.gpo.gov/fdsys/)
 * HTML for Federal Register rules and notices, as distributed by [FederalRegister.gov](https://www.federalregister.gov)
 
 Both processors turn the original documents into simple HTML fragments suitable for direct integration.
+
+Install the gem with:
+
+```bash
+gem install us-documents
+```
+
+And process a bill or Federal Register document with:
+
+```bash
+us-documents bills /path/to/original/bill.xml
+
+us-documents federal_register /path/to/original/rule.html
+```
+
+The resulting HTML will print to `STDOUT`. 
+
+In Ruby, the processor takes in a string and outputs a string:
+
+```ruby
+require 'open-uri'
+require 'us-documents'
+
+bill_text = open("http://www.gpo.gov/fdsys/pkg/BILLS-113hr624rfs/xml/BILLS-113hr624rfs.xml").read
+bill_html = UnitedStates::Documents::Bills.process bill_text
+
+fr_text = open("https://www.federalregister.gov/articles/html/full_text/201/310/114.html").read
+fr_html = UnitedStates::Documents::FederalRegister.process fr_text
+```
+
 
 #### Bills from Congress
 
@@ -26,17 +56,6 @@ The `us-documents` bill processor does a few things to prepare HTML for integrat
 * Turns each tag into a span or div, with a class from the original tag name.
 * Drops most attributes - there are a lot of them, and it's not obvious what they all signify.
 * Take Congress-detected citation links, parse out the pieces (e.g. title, section), and put them into data attributes. This allows downstream users to easily link citations to other sources.
-
-The processor takes in a string and outputs a string:
-
-```ruby
-require 'open-uri'
-require 'us-documents'
-
-bill_text = open("http://www.gpo.gov/fdsys/pkg/BILLS-113hr624rfs/xml/BILLS-113hr624rfs.xml").read
-
-html = UnitedStates::Documents::Bills.process bill_text
-```
 
 This turns XML of the style ([source](http://www.gpo.gov/fdsys/pkg/BILLS-113hr624rfs/xml/BILLS-113hr624rfs.xml)):
 
@@ -86,17 +105,6 @@ That HTML is already designed for direct integration, but there are changes we c
 * Turn relative links into absolute links (to `https://www.federalregister.gov`).
 * Take FR.gov-detected citation links, parse out the pieces (e.g. title, section), and put them into data attributes. This allows downstream users to easily link citations to other sources.
 * Drops an empty tool tip container.
-
-The processor takes in a string and outputs a string:
-
-```ruby
-require 'open-uri'
-require 'us-documents'
-
-fr_text = open("https://www.federalregister.gov/articles/html/full_text/201/310/114.html").read
-
-html = UnitedStates::Documents::FederalRegister.process fr_text
-```
 
 This turns HTML of the style ([source](https://www.federalregister.gov/articles/html/full_text/201/310/114.html)):
 
