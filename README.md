@@ -1,4 +1,4 @@
-## Documents
+## unitedstates/documents
 
 Tools, ideas, and maybe eventually some light standards for working with US documents.
 
@@ -52,7 +52,7 @@ The `us-documents` bill processor does a few things to prepare HTML for integrat
 * Drops most attributes - there are a lot of them, and it's not obvious what they all signify.
 * Take Congress-detected citation links, parse out the pieces (e.g. title, section), and put them into data attributes. This allows downstream users to easily link citations to other sources.
 
-This turns XML of the style ([source](http://www.gpo.gov/fdsys/pkg/BILLS-113hr624rfs/xml/BILLS-113hr624rfs.xml)):
+This turns XML like this ([source](http://www.gpo.gov/fdsys/pkg/BILLS-113hr624rfs/xml/BILLS-113hr624rfs.xml)):
 
 ```xml
 <section id="HB0C08BA314F34BDFB081CA26A4A48B86" section-type="section-one">
@@ -69,7 +69,7 @@ This turns XML of the style ([source](http://www.gpo.gov/fdsys/pkg/BILLS-113hr62
 </section>
 ```
 
-into this HTML:
+into HTML like this:
 
 ```html
 <div class="section">
@@ -101,7 +101,7 @@ That HTML is already designed for direct integration, but there are changes we c
 * Take FR.gov-detected citation links, parse out the pieces (e.g. title, section), and put them into data attributes. This allows downstream users to easily link citations to other sources.
 * Drops an empty tool tip container.
 
-This turns HTML of the style ([source](https://www.federalregister.gov/articles/html/full_text/201/310/114.html)):
+This turns HTML like this ([source](https://www.federalregister.gov/articles/html/full_text/201/310/114.html)):
 
 ```html
 <div class="body_column">
@@ -111,7 +111,7 @@ This turns HTML of the style ([source](https://www.federalregister.gov/articles/
 </div>
 ```
 
-into this similar HTML:
+into similar HTML like this:
 
 ```html
 <div class="body_column">
