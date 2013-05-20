@@ -36,7 +36,6 @@ require 'us-documents'
 bill_text = open("http://www.gpo.gov/fdsys/pkg/BILLS-113hr624rfs/xml/BILLS-113hr624rfs.xml").read
 
 html = UnitedStates::Documents::Bills.process bill_text
-File.open("output.html", "w") {|f| f.write html}
 ```
 
 This turns XML of the style ([source](http://www.gpo.gov/fdsys/pkg/BILLS-113hr624rfs/xml/BILLS-113hr624rfs.xml)):
@@ -97,7 +96,6 @@ require 'us-documents'
 fr_text = open("https://www.federalregister.gov/articles/html/full_text/201/310/114.html").read
 
 html = UnitedStates::Documents::FederalRegister.process fr_text
-File.open("output.html", "w") {|f| f.write html}
 ```
 
 This turns HTML of the style ([source](https://www.federalregister.gov/articles/html/full_text/201/310/114.html)):
