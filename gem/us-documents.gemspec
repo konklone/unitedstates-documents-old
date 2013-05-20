@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'us-documents'
-  s.version     = '0.1.1'
+  s.version     = '0.2.0'
   
   s.summary     = "Process legal documents into integration-friendly HTML."
   s.description = "Process legal documents into integration-friendly HTML."
