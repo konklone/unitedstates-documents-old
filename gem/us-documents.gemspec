@@ -11,11 +11,11 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/unitedstates/documents'
 
   s.files       = [
-                    "bills/bills.rb",
-                    "federal_register/federal_register.rb",
-                    "gem/us-documents.rb"
+                    "lib/bills.rb",
+                    "lib/federal_register.rb",
+                    "lib/us-documents.rb"
                   ]
-  s.require_paths = ["gem"]
+  s.require_paths = ["lib"]
 
   s.add_dependency "nokogiri"
 end
