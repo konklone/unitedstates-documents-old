@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
                   ]
   s.require_paths = ["lib"]
   s.bindir = 'bin'
+  s.executables << 'us-documents'
 
   s.add_dependency "nokogiri"
 end
