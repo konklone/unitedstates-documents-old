@@ -1,0 +1,53 @@
+#!/usr/bin/env ruby
+
+require 'us-documents'
+
+options = {}
+
+document_type = ARGV[0]
+if document_type == "bills"
+  klass = UnitedStates::Documents::Bills
+elsif document_type == "federal_register"
+  klass = UnitedStates::Documents::FederalRegister
+else
+  klass = nil
+end
+
+infile = ARGV[1]
+
+unless klass and infile and infile.size > 0
+  puts "The first argument must be `bills` or `federal_register`."
+  puts "The second argument must be a filename of the document to process."
+  exit 1
+end
+
+(ARGV[2..-1] || []).each do |arg|
+  if arg.start_with?("--")
+    if arg["="]
+      key, value = arg.split('=')
+    else
+      key, value = [arg, true]
+    end
+    
+    key = key.split("--")[1]
+    if value == 'true'
+      value = true
+    elsif value == 'False'
+      value = false
+    end
+
+    options[key.downcase.to_sym] = value
+  end
+end
+
+outfile = options.delete :out
+text = File.open(infile, 'r').read
+
+output = klass.process text, options
+
+if outfile
+  File.open(outfile, "w") {|f| f.write output}
+  puts "Written to #{outfile}."
+else
+  puts output
+end

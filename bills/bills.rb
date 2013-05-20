@@ -1,8 +1,3 @@
-#!/usr/bin/env ruby
-
-require 'rubygems'
-require 'bundler/setup'
-
 require 'nokogiri'
 
 module UnitedStates
@@ -77,34 +72,4 @@ module UnitedStates
 
     end
   end
-end
-
-# boilerplate to accept a CLI interface
-if $0 == __FILE__
-  options = {}
-  
-  infile = ARGV[0]
-
-  (ARGV[1..-1] || []).each do |arg|
-    if arg.start_with?("--")
-      if arg["="]
-        key, value = arg.split('=')
-      else
-        key, value = [arg, true]
-      end
-      
-      key = key.split("--")[1]
-      if value == 'true'
-        value = true
-      elsif value == 'False'
-        value = false
-      end
-      options[key.downcase.to_sym] = value
-    end
-  end
-
-  outfile = options.delete :out
-  text = File.read infile
-
-  puts UnitedStates::Documents::Bills.process text, options
 end
