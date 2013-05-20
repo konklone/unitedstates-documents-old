@@ -17,6 +17,8 @@ This repository contains a `us-documents` gem that provides command line and Rub
 
 Both processors turn the original documents into simple HTML fragments suitable for direct integration.
 
+#### Usage
+
 Install the gem with:
 
 ```bash
@@ -45,7 +47,6 @@ bill_html = UnitedStates::Documents::Bills.process bill_text
 fr_text = open("https://www.federalregister.gov/articles/html/full_text/201/310/114.html").read
 fr_html = UnitedStates::Documents::FederalRegister.process fr_text
 ```
-
 
 #### Bills from Congress
 
