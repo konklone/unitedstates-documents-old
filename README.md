@@ -4,7 +4,7 @@ Tools, ideas, and maybe eventually some light standards for working with US docu
 
 ### Document Processor
 
-This repository contains a `us-documents` gem that provides command line and Ruby-based document processors for two kinds of legal documents:
+This repository contains a `us-documents` [gem](http://rubygems.org/gems/us-documents) that provides command line and Ruby-based document processors for two kinds of legal documents:
 
 * XML for bills in Congress, as distributed by [GPO's FDSys](http://www.gpo.gov/fdsys/)
 * HTML for Federal Register rules and notices, as distributed by [FederalRegister.gov](https://www.federalregister.gov)
