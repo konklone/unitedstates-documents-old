@@ -1,3 +1,6 @@
 /*.html
 .DS_Store
 *.gem
+/gem/bin/*.htm
+/gem/bin/*.html
+/gem/bin/*.xml
