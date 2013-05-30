@@ -54,8 +54,20 @@ module UnitedStates
           # switch the name to a div or span
           node.name = html_node_name node
 
-          # strip out extraneous attributes
-          replace_attributes node, preserved
+          # strip out all attributes
+          node.attributes.each do |key, value|
+            node.attributes[key].remove
+          end
+
+          # allow client to transform per-node -
+          # they get the stripped node, and the attributes hash we're about to commit.
+          # they can be modified in place before committed to the document.
+          yield node, preserved if block_given?
+
+          # restore just the ones we were going to preserve
+          preserved.each do |key, value|
+            node.set_attribute key, value.to_s
+          end
         end
 
         body.to_html
@@ -85,21 +97,6 @@ module UnitedStates
 
       def self.block?(node)
         BLOCKS.include? node.name
-      end
-
-      # Strip out all the node's attributes and set those which were preserved
-      def self.replace_attributes(node, preserved)
-        # strip out all attributes
-        node.attributes.each do |key, value|
-          node.attributes[key].remove
-        end
-
-        # restore just the ones we were going to preserve
-        preserved.each do |key, value|
-          node.set_attribute key, value.to_s
-        end
-
-        node
       end
 
     end
