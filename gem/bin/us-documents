@@ -1,6 +1,11 @@
 #!/usr/bin/env ruby
 
-require 'us-documents'
+begin
+  require 'us-documents'
+rescue LoadError
+  # local dev mode
+  require File.join("..", "lib", File.dirname(__FILE__), "us-documents")
+end
 
 options = {}
 
@@ -28,7 +33,7 @@ end
     else
       key, value = [arg, true]
     end
-    
+
     key = key.split("--")[1]
     if value == 'true'
       value = true
