@@ -4,7 +4,9 @@ module UnitedStates
   module Documents
     class Bills
 
-      # elements to be turned into divs (must be listed explicitly)
+      # elements to be turned into divs (must be listed explicitly).
+      # these will also be used to advance a document counter that numbers
+      # each block, to give identifiers per-displayable unit.
       BLOCKS = %w{
         bill form amendment-form engrossed-amendment-form resolution-form
         legis-body resolution-body engrossed-amendment-body amendment-body
@@ -15,18 +17,13 @@ module UnitedStates
         toc toc-entry
       }
 
-      # elements to be turned into spans (unlisted elements default to inline)
-      INLINES = %w{
-        after-quoted-block quote
-        internal-xref external-xref
-        text header enum
-        short-title official-title
-      }
-
       # Given a path to an XML file published by the House or Senate,
       # produce an HTML version of the document at the given output.
       def self.process(text, options = {})
         doc = Nokogiri::XML text
+
+        # document counter - number units as the document proceeds
+        counter = 0
 
         body = doc.root
         body.traverse do |node|
@@ -38,6 +35,18 @@ module UnitedStates
 
           # preserve the node's old name as its class
           preserved = {"class" => node.name}
+
+          # detect this node's place in the hierarchy
+          if block?(node)
+            counter += 1
+            data = {"data-block" => counter}
+
+            if options[:hierarchy].is_a?(Proc)
+              data["data-block"] = options[:hierarchy].call counter
+            end
+
+            preserved.merge! data
+          end
 
           # break out any detected cites
           preserved.merge! citations(node)
@@ -69,10 +78,13 @@ module UnitedStates
         citations
       end
 
-
       # Fetch the corresponding HTML tag name for the given node
       def self.html_node_name(node)
-        BLOCKS.include?(node.name) ? "div" : "span"
+        block?(node) ? "div" : "span"
+      end
+
+      def self.block?(node)
+        BLOCKS.include? node.name
       end
 
       # Strip out all the node's attributes and set those which were preserved
@@ -84,7 +96,7 @@ module UnitedStates
 
         # restore just the ones we were going to preserve
         preserved.each do |key, value|
-          node.set_attribute key, value
+          node.set_attribute key, value.to_s
         end
 
         node
