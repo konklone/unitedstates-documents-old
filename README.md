@@ -27,7 +27,7 @@ us-documents bills /path/to/original/bill.xml
 us-documents federal_register /path/to/original/rule.html
 ```
 
-The resulting HTML will print to `STDOUT`. 
+The resulting HTML will print to `STDOUT`.
 
 In Ruby, the processor takes in a string and outputs a string:
 
@@ -76,14 +76,14 @@ into HTML like this:
   <span class="enum">1.</span>
   <span class="header">Short title</span>
   <span class="text">
-    This Act may be cited as the 
+    This Act may be cited as the
     <span class="quote">
       <span class="short-title">
         Cyber Intelligence Sharing and Protection Act
       </span>
     </span>.
   </span>
-</div> 
+</div>
 ```
 
 You can see an example of this HTML used in production on [Scout's page for H.R. 624](https://scout.sunlightfoundation.com/item/bill/hr624-113).
@@ -92,7 +92,7 @@ You can see an example of this HTML used in production on [Scout's page for H.R.
 
 [FederalRegister.gov](https://www.federalregister.gov) publishes well structured JSON metadata for every document on the site. They also break out standalone HTML fragments for the abstract and body of every document.
 
-For example, this [rule about cotton](https://www.federalregister.gov/articles/2013/04/30/2013-10114/revision-of-regulations-defining-bona-fide-cotton-spot-markets) has [JSON metadata](https://www.federalregister.gov/api/v1/articles/2013-10114) that links to raw HTML links for both the [abstract](https://www.federalregister.gov/articles/html/abstract/201/310/114.html) and [body](https://www.federalregister.gov/articles/html/full_text/201/310/114.html). 
+For example, this [rule about cotton](https://www.federalregister.gov/articles/2013/04/30/2013-10114/revision-of-regulations-defining-bona-fide-cotton-spot-markets) has [JSON metadata](https://www.federalregister.gov/api/v1/articles/2013-10114) that links to raw HTML links for both the [abstract](https://www.federalregister.gov/articles/html/abstract/201/310/114.html) and [body](https://www.federalregister.gov/articles/html/full_text/201/310/114.html).
 
 That HTML is already designed for direct integration, but there are changes we can make, to make integration easier:
 
@@ -122,3 +122,11 @@ into similar HTML like this:
 ```
 
 You can see an example of this used in production on [Scout's page for document No. 2013-10114](https://scout.sunlightfoundation.com/item/regulation/2013-10114).
+
+## Public domain
+
+This project is [dedicated to the public domain](LICENSE). As spelled out in [CONTRIBUTING](CONTRIBUTING.md):
+
+> The project is in the public domain within the United States, and copyright and related rights in the work worldwide are waived through the [CC0 1.0 Universal public domain dedication](http://creativecommons.org/publicdomain/zero/1.0/).
+
+> All contributions to this project will be released under the CC0 dedication. By submitting a pull request, you are agreeing to comply with this waiver of copyright interest.
